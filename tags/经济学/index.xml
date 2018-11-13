@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>经济学 on 在路上</title>
+    <link>https://example.com/tags/%E7%BB%8F%E6%B5%8E%E5%AD%A6/</link>
+    <description>Recent content in 经济学 on 在路上</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>CN</language>
+    <copyright>&amp;copy; &lt;a href=&#34;https://github.com/yuyx91&#34;&gt;yuyx91&lt;/a&gt; 2018</copyright>
+    <lastBuildDate>Wed, 23 Nov 2016 09:18:06 +0000</lastBuildDate>
+    
+	<atom:link href="https://example.com/tags/%E7%BB%8F%E6%B5%8E%E5%AD%A6/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>张五常的货币理论</title>
+      <link>https://example.com/posts/%E5%BC%A0%E4%BA%94%E5%B8%B8%E7%9A%84%E8%B4%A7%E5%B8%81%E7%90%86%E8%AE%BA/</link>
+      <pubDate>Wed, 23 Nov 2016 09:18:06 +0000</pubDate>
+      
+      <guid>https://example.com/posts/%E5%BC%A0%E4%BA%94%E5%B8%B8%E7%9A%84%E8%B4%A7%E5%B8%81%E7%90%86%E8%AE%BA/</guid>
+      <description>&lt;p&gt;张五常其人：中国想经济学家，新制度经济学和现代产权经济学的创始人之一。是国际知名的经济学家，也是华人经济学第一人。&lt;br /&gt;
+
+货币经济学属于宏观经济学。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

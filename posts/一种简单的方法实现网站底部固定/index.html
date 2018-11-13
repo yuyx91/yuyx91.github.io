@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="CN">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+
+<title>一种简单的方法实现网站底部固定 | 在路上</title>
+
+<link rel="stylesheet" href="https://example.com/css/styles.css">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" 
+integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/zenburn.min.css" crossorigin="anonymous" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<script src="https://example.com/js/highlight.js"></script>
+
+
+
+<link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.jssocials/1.4.0/jssocials.css" />
+<link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.jssocials/1.4.0/jssocials-theme-minima.css" />
+<script type="text/javascript" src="https://example.com/js/jssocials.js"></script>
+
+
+
+
+<div class="container">
+    <nav class="navbar level">
+      <div class="navbar-brand">
+          <a class="nav-item" href="https://example.com"><h1 class="title is-3">在路上</h1></a>
+      </div>           
+      <div class="navbar-menu has-text-centered is-active">
+          <div class="navbar-end is-centered">
+              
+                <a href="https://example.com/about">
+                  <span class="icon">
+                    <i class="fas fa-info"></i>
+                  </span>
+                </a>
+              
+                <a href="https://github.com/yuyx91/">
+                  <span class="icon">
+                    <i class="fab fa-github"></i>
+                  </span>
+                </a>
+              
+                <a href="https://www.linkedin.com/">
+                  <span class="icon">
+                    <i class="fab fa-linkedin-in"></i>
+                  </span>
+                </a>
+              
+                <a href="https://twitter.com/">
+                  <span class="icon">
+                    <i class="fab fa-twitter"></i>
+                  </span>
+                </a>
+              
+           </div>
+      </div>
+    </nav>
+  </div>
+<div class="container">
+  <h2 class="subtitle is-6">November 10, 2016</h2>
+  <h1 class="subtitle is-size-4-mobile is-size-3-desktop">一种简单的方法实现网站底部固定</h1>
+  <div class="content">
+    <p>现在电脑的屏幕分辨率越来越大，网站的底部浮在半腰非常难看&hellip;<br />
+
+&gt; 参考本博客的方法，可以轻易的实现网站底部自动固定。</p>
+
+<p>之前查过网络，有很多的解决方法，基本思想也都相似；首先<code>html</code>和<code>body</code>设置高度100%，底部定位，内容区设置<code>min-height</code>和<code>padding-bottom</code>。<br />
+代码实现:</p>
+
+<pre><code class="language-html">    &lt;html&gt;
+        &lt;head&gt;
+        &lt;/head&gt;
+        &lt;body&gt;
+            &lt;style&gt;
+                html,body{height: 100%;}
+            &lt;/style&gt;
+            &lt;div style=&quot;position: relative;min-height: 100%;&quot;&gt;
+                &lt;h1 class=&quot;header&quot;&gt;&lt;/h1&gt;
+                &lt;div class=&quot;main&quot; style=&quot;padding-bottom: 50px;&quot;&gt;&lt;/div&gt;
+                &lt;h1 style=&quot;position: absolute;bottom: 0;height: 50px;&quot;&gt;&lt;/h1&gt;
+            &lt;/div&gt;
+        &lt;/body&gt;
+    &lt;/html&gt;
+</code></pre>
+
+<p>具体请点击<a href="http://yuyaxin.win/demo/fixed-footer.html" title="fixed-footer" target="_blank">DEMO:fixed-footer</a></p>
+  </div>
+</div>
+<div class="container has-text-centered">
+    
+    <aside><div id="share"></div></aside>
+    <script type="text/javascript">
+        $("#share").jsSocials({
+            showLabel: false,
+            showCount: false,
+            shares: ["email", "twitter", "facebook", "googleplus", "linkedin", "pinterest", "stumbleupon", "whatsapp"]
+        });
+    </script>
+    
+</div>
+
+<div class="container has-text-centered">
+  
+</div>
+<section class="section">
+  <div class="container has-text-centered">
+    <p>&copy; <a href="https://github.com/yuyx91">yuyx91</a> 2018</p>
+  </div>
+</section>
+
+

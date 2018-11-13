@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="CN">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+
+<title>jquery实现导航栏滑动底边 | 在路上</title>
+
+<link rel="stylesheet" href="https://example.com/css/styles.css">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" 
+integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/zenburn.min.css" crossorigin="anonymous" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<script src="https://example.com/js/highlight.js"></script>
+
+
+
+<link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.jssocials/1.4.0/jssocials.css" />
+<link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.jssocials/1.4.0/jssocials-theme-minima.css" />
+<script type="text/javascript" src="https://example.com/js/jssocials.js"></script>
+
+
+
+
+<div class="container">
+    <nav class="navbar level">
+      <div class="navbar-brand">
+          <a class="nav-item" href="https://example.com"><h1 class="title is-3">在路上</h1></a>
+      </div>           
+      <div class="navbar-menu has-text-centered is-active">
+          <div class="navbar-end is-centered">
+              
+                <a href="https://example.com/about">
+                  <span class="icon">
+                    <i class="fas fa-info"></i>
+                  </span>
+                </a>
+              
+                <a href="https://github.com/yuyx91/">
+                  <span class="icon">
+                    <i class="fab fa-github"></i>
+                  </span>
+                </a>
+              
+                <a href="https://www.linkedin.com/">
+                  <span class="icon">
+                    <i class="fab fa-linkedin-in"></i>
+                  </span>
+                </a>
+              
+                <a href="https://twitter.com/">
+                  <span class="icon">
+                    <i class="fab fa-twitter"></i>
+                  </span>
+                </a>
+              
+           </div>
+      </div>
+    </nav>
+  </div>
+<div class="container">
+  <h2 class="subtitle is-6">November 16, 2016</h2>
+  <h1 class="subtitle is-size-4-mobile is-size-3-desktop">jquery实现导航栏滑动底边</h1>
+  <div class="content">
+    <p>公司的新网站，加入一些比较炫的效果，利用jquery实现滑动跟随导航栏底边。
+<br />
+废话不多说，前端代码：</p>
+
+<pre><code class="language-html">    &lt;ul class=&quot;nav&quot;&gt;
+        &lt;li class=&quot;active&quot;&gt;&lt;a href=&quot;&quot;&gt;首页&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;&quot;&gt;新闻资讯&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;&quot;&gt;关于龙创&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;&quot;&gt;方案与产品&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;&quot;&gt;典型案例&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;&quot;&gt;技术服务&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;&quot;&gt;联系我们&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;div class=&quot;s-line&quot;&gt;
+        &lt;div class=&quot;container&quot;&gt;
+            &lt;div class=&quot;slide-bottom&quot;&gt;&lt;/div&gt;
+         &lt;/div&gt;
+    &lt;/div&gt;
+</code></pre>
+
+<p>jq代码（匆匆写的，以后再整理）：</p>
+
+<pre><code class="language-js">    $(function(){
+        var i,l=0;
+        $(&quot;.nav li&quot;).mouseover(function(){
+            i=$(this).index();
+            l=465+i*105;
+            $(&quot;.slide-bottom&quot;).stop().animate({&quot;left&quot;:l+&quot;px&quot;},&quot;fast&quot;)
+        })
+        $(&quot;.nav&quot;).mouseleave(function(){
+            i=$(this).children(&quot;.active&quot;).index();
+            l=465+i*105;
+            $(&quot;.slide-bottom&quot;).animate({&quot;left&quot;:l+&quot;px&quot;},&quot;fast&quot;)
+        })
+    })
+</code></pre>
+
+<p>很小的组件，使用jquery实现不够轻量化，也没有办法，就不贴demo了，这里是效果图:<img src="/images/gifs/GIF1.gif" title="鼠标跟随滑动底边" alt="图片链接失效请联系yuyx91@qq.com"></p>
+  </div>
+</div>
+<div class="container has-text-centered">
+    
+    <aside><div id="share"></div></aside>
+    <script type="text/javascript">
+        $("#share").jsSocials({
+            showLabel: false,
+            showCount: false,
+            shares: ["email", "twitter", "facebook", "googleplus", "linkedin", "pinterest", "stumbleupon", "whatsapp"]
+        });
+    </script>
+    
+</div>
+
+<div class="container has-text-centered">
+  
+</div>
+<section class="section">
+  <div class="container has-text-centered">
+    <p>&copy; <a href="https://github.com/yuyx91">yuyx91</a> 2018</p>
+  </div>
+</section>
+
+

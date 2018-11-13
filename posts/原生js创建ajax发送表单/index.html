@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="CN">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+
+<title>原生Js创建ajax发送表单 | 在路上</title>
+
+<link rel="stylesheet" href="https://example.com/css/styles.css">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" 
+integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/zenburn.min.css" crossorigin="anonymous" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<script src="https://example.com/js/highlight.js"></script>
+
+
+
+<link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.jssocials/1.4.0/jssocials.css" />
+<link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.jssocials/1.4.0/jssocials-theme-minima.css" />
+<script type="text/javascript" src="https://example.com/js/jssocials.js"></script>
+
+
+
+
+<div class="container">
+    <nav class="navbar level">
+      <div class="navbar-brand">
+          <a class="nav-item" href="https://example.com"><h1 class="title is-3">在路上</h1></a>
+      </div>           
+      <div class="navbar-menu has-text-centered is-active">
+          <div class="navbar-end is-centered">
+              
+                <a href="https://example.com/about">
+                  <span class="icon">
+                    <i class="fas fa-info"></i>
+                  </span>
+                </a>
+              
+                <a href="https://github.com/yuyx91/">
+                  <span class="icon">
+                    <i class="fab fa-github"></i>
+                  </span>
+                </a>
+              
+                <a href="https://www.linkedin.com/">
+                  <span class="icon">
+                    <i class="fab fa-linkedin-in"></i>
+                  </span>
+                </a>
+              
+                <a href="https://twitter.com/">
+                  <span class="icon">
+                    <i class="fab fa-twitter"></i>
+                  </span>
+                </a>
+              
+           </div>
+      </div>
+    </nav>
+  </div>
+<div class="container">
+  <h2 class="subtitle is-6">November 16, 2016</h2>
+  <h1 class="subtitle is-size-4-mobile is-size-3-desktop">原生Js创建ajax发送表单</h1>
+  <div class="content">
+    <p>一直使用jquery的ajax和后台交互，对ajax的原理不是很了解，而且轻量化的手机端不适合使用jquery操作，研究一下原生的ajax有助于对http的深入理解。</p>
+
+<p>
+以下代码例子只是我自己用node EXPRESS做后台跑通了，具体实践还要结合情况。<br />
+先贴一下前端代码：</p>
+
+<pre><code class="language-js">        function login(){
+            var n = document.getElementById(&quot;username&quot;).value，
+                p = document.getElementById(&quot;password&quot;).value,
+                //转换成JSON格式，否则默认发送的是对象，node后台会解析错误
+                data = JSON.stringify({
+                    uname: n,
+                    upwd: p
+                });
+
+            function ajax() {
+                var xhr = new XMLHttpRequest(),
+                    url = &quot;/login&quot;;
+                xhr.open(&quot;post&quot;, url, true);
+                //http Header 改成了json，否则后台报错，以后需要了解
+                xhr.setRequestHeader(&quot;CONTENT-TYPE&quot;, &quot;application/json&quot;);
+                //接受状态的默认写法
+                xhr.onreadystatechange = function() {
+                    if(xhr.readyState == 4 &amp;&amp; xhr.status == 200) {
+                        //res是我后台返回的数据，需要转成js对象
+                        var res = JSON.parse(xhr.responseText);
+                        if(res.status == &quot;success&quot;) {
+                            alert(res.data);
+                            location.href = &quot;/&quot;
+                        }
+                    }
+                }
+                xhr.send(data);
+            }
+            ajax();
+        }
+</code></pre>
+
+<p>接下来是node后台代码：</p>
+
+<pre><code class="language-js">    app.post('/login', function(req, res) {
+        var models = require('../models'),
+            User = models.User,
+            uname = req.body.uname,//获取表单数据
+            upwd = req.body.upwd;
+        User.findOne({//数据库查询
+            &quot;name&quot;: uname
+        }, function(err, doc) {
+            if(doc) {
+                if(doc.password == upwd) {
+                    req.session.username=uname;
+                    return res.send({//服务器返回json
+                        status: &quot;success&quot;,
+                        data:&quot;欢迎用户&quot;+req.session.username
+                    });
+
+                } else {
+                    return res.send({
+                        status: &quot;pwderr&quot;,
+                        data: &quot;密码错误！&quot;
+                    });
+                }
+
+            } else {
+                res.send({
+                    status: &quot;usererr&quot;,
+                    data: &quot;不存在的用户名!&quot;
+                })
+            }
+        });
+    });
+</code></pre>
+
+<p><strong>http POST发送数据要标明头部json格式，否则发送的是js对象，服务器解析错误，服务器返回的json字符串还要转成js对象，这一点要注意。</strong></p>
+  </div>
+</div>
+<div class="container has-text-centered">
+    
+    <aside><div id="share"></div></aside>
+    <script type="text/javascript">
+        $("#share").jsSocials({
+            showLabel: false,
+            showCount: false,
+            shares: ["email", "twitter", "facebook", "googleplus", "linkedin", "pinterest", "stumbleupon", "whatsapp"]
+        });
+    </script>
+    
+</div>
+
+<div class="container has-text-centered">
+  
+</div>
+<section class="section">
+  <div class="container has-text-centered">
+    <p>&copy; <a href="https://github.com/yuyx91">yuyx91</a> 2018</p>
+  </div>
+</section>
+
+

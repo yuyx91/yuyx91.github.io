@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Note on 在路上</title>
+    <link>https://example.com/tags/note/</link>
+    <description>Recent content in Note on 在路上</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>CN</language>
+    <copyright>&amp;copy; &lt;a href=&#34;https://github.com/yuyx91&#34;&gt;yuyx91&lt;/a&gt; 2018</copyright>
+    <lastBuildDate>Mon, 14 Nov 2016 10:08:43 +0000</lastBuildDate>
+    
+	<atom:link href="https://example.com/tags/note/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Markdown速记笔记</title>
+      <link>https://example.com/posts/markdown%E9%80%9F%E8%AE%B0%E7%AC%94%E8%AE%B0/</link>
+      <pubDate>Mon, 14 Nov 2016 10:08:43 +0000</pubDate>
+      
+      <guid>https://example.com/posts/markdown%E9%80%9F%E8%AE%B0%E7%AC%94%E8%AE%B0/</guid>
+      <description> 原生Markdown不支持table语法，可以直接用html &amp;lt;table&amp;gt;标签来代替 在Markdown中使用html标签时，谨慎使用换行和空格，会被Markdown语法识别  </description>
+    </item>
+    
+    <item>
+      <title>学习笔记：GET和POST请求的区别</title>
+      <link>https://example.com/posts/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0get%E5%92%8Cpost%E8%AF%B7%E6%B1%82%E7%9A%84%E5%8C%BA%E5%88%AB/</link>
+      <pubDate>Mon, 14 Nov 2016 09:53:19 +0000</pubDate>
+      
+      <guid>https://example.com/posts/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0get%E5%92%8Cpost%E8%AF%B7%E6%B1%82%E7%9A%84%E5%8C%BA%E5%88%AB/</guid>
+      <description>GET方式POST方式同一地址不重复执行每次都执行可被缓存不可被缓存把参数数据添加到提交表单的action属性所指的URL中，值和表单内各个字段一一对应，在URL中可以看到通过HTTP POST机制，将表单内各个字段与内容放置在HTML HEADER内一起传送到action属性所指的URL地址，用户看不到这个过程服务器端用Request.QueryString获取变量的值服务器端用Request.Form获取提交是数据传送的数据量较小，不能大于2KB传送的数据量较大，一般被默认为不受限制，但理论上，因服务器的不同而异安全性非常低安全性较高method为get时，action后面的参数列表会被忽视method为post时，action后面的参数列表不可忽视它将数据添加到URL中，通过这种方式传递到服务器，通常利用问号?代表URL地址的结尾与数据参数的开端，后面的参数每一个数据参数以“键=值”的形式出现，参数之间用&amp;区分数据是放在HTTP主体中的，其组织方式不止一种，有&amp;连接方式，也有分隔符方式，可隐藏参数，传递大批数据比较方便 </description>
+    </item>
+    
+  </channel>
+</rss>

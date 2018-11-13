@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="CN">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+
+<title>js&#43;css3实现高度自适应折叠菜单 | 在路上</title>
+
+<link rel="stylesheet" href="https://example.com/css/styles.css">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" 
+integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/zenburn.min.css" crossorigin="anonymous" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<script src="https://example.com/js/highlight.js"></script>
+
+
+
+<link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.jssocials/1.4.0/jssocials.css" />
+<link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.jssocials/1.4.0/jssocials-theme-minima.css" />
+<script type="text/javascript" src="https://example.com/js/jssocials.js"></script>
+
+
+
+
+<div class="container">
+    <nav class="navbar level">
+      <div class="navbar-brand">
+          <a class="nav-item" href="https://example.com"><h1 class="title is-3">在路上</h1></a>
+      </div>           
+      <div class="navbar-menu has-text-centered is-active">
+          <div class="navbar-end is-centered">
+              
+                <a href="https://example.com/about">
+                  <span class="icon">
+                    <i class="fas fa-info"></i>
+                  </span>
+                </a>
+              
+                <a href="https://github.com/yuyx91/">
+                  <span class="icon">
+                    <i class="fab fa-github"></i>
+                  </span>
+                </a>
+              
+                <a href="https://www.linkedin.com/">
+                  <span class="icon">
+                    <i class="fab fa-linkedin-in"></i>
+                  </span>
+                </a>
+              
+                <a href="https://twitter.com/">
+                  <span class="icon">
+                    <i class="fab fa-twitter"></i>
+                  </span>
+                </a>
+              
+           </div>
+      </div>
+    </nav>
+  </div>
+<div class="container">
+  <h2 class="subtitle is-6">December 29, 2016</h2>
+  <h1 class="subtitle is-size-4-mobile is-size-3-desktop">js&#43;css3实现高度自适应折叠菜单</h1>
+  <div class="content">
+    <p>虽然使用jquery实现的折叠菜单非常简便，直接使用slideUp()和slideDown()方法，但是手机端使用jquery太不方便，可以考虑使用原生js+css3实现。<br />
+</p>
+
+<h4 id="实现思路">实现思路</h4>
+
+<ul>
+<li>每个内容块设置<code>max-height</code>和<code>transition</code>，<code>max-height</code>可以设置适当的高度，不需要很大，否则会回弹的很快。</li>
+<li>点击时添加<code>class</code>，<code>max-height</code>设置为0。<br /></li>
+</ul>
+
+<h4 id="代码">代码</h4>
+
+<p>css</p>
+
+<pre><code class="language-css">    dd{
+        transition: max-height .6s ease;
+        max-height: 200px;
+        overflow: hidden;
+    }
+    dd.hide{
+        max-height: 0;
+    }
+</code></pre>
+
+<p>js</p>
+
+<pre><code class="language-js">    function hide (e) {
+        var dd=e.nextElementSibling;
+        dd.className==&quot;hide&quot;?dd.className=&quot;&quot;:dd.className=&quot;hide&quot;
+    }
+</code></pre>
+
+<h4 id="效果">效果</h4>
+
+<p>点击查看效果<a href="http://yuyaxin.win/demo/show-hide.html" title="show-hide" target="_blank">DEMO:show-hide</a></p>
+  </div>
+</div>
+<div class="container has-text-centered">
+    
+    <aside><div id="share"></div></aside>
+    <script type="text/javascript">
+        $("#share").jsSocials({
+            showLabel: false,
+            showCount: false,
+            shares: ["email", "twitter", "facebook", "googleplus", "linkedin", "pinterest", "stumbleupon", "whatsapp"]
+        });
+    </script>
+    
+</div>
+
+<div class="container has-text-centered">
+  
+</div>
+<section class="section">
+  <div class="container has-text-centered">
+    <p>&copy; <a href="https://github.com/yuyx91">yuyx91</a> 2018</p>
+  </div>
+</section>
+
+

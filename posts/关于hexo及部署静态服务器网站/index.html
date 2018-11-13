@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="CN">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+
+<title>关于Hexo及部署静态服务器网站 | 在路上</title>
+
+<link rel="stylesheet" href="https://example.com/css/styles.css">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" 
+integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/zenburn.min.css" crossorigin="anonymous" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<script src="https://example.com/js/highlight.js"></script>
+
+
+
+<link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.jssocials/1.4.0/jssocials.css" />
+<link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.jssocials/1.4.0/jssocials-theme-minima.css" />
+<script type="text/javascript" src="https://example.com/js/jssocials.js"></script>
+
+
+
+
+<div class="container">
+    <nav class="navbar level">
+      <div class="navbar-brand">
+          <a class="nav-item" href="https://example.com"><h1 class="title is-3">在路上</h1></a>
+      </div>           
+      <div class="navbar-menu has-text-centered is-active">
+          <div class="navbar-end is-centered">
+              
+                <a href="https://example.com/about">
+                  <span class="icon">
+                    <i class="fas fa-info"></i>
+                  </span>
+                </a>
+              
+                <a href="https://github.com/yuyx91/">
+                  <span class="icon">
+                    <i class="fab fa-github"></i>
+                  </span>
+                </a>
+              
+                <a href="https://www.linkedin.com/">
+                  <span class="icon">
+                    <i class="fab fa-linkedin-in"></i>
+                  </span>
+                </a>
+              
+                <a href="https://twitter.com/">
+                  <span class="icon">
+                    <i class="fab fa-twitter"></i>
+                  </span>
+                </a>
+              
+           </div>
+      </div>
+    </nav>
+  </div>
+<div class="container">
+  <h2 class="subtitle is-6">February 22, 2017</h2>
+  <h1 class="subtitle is-size-4-mobile is-size-3-desktop">关于Hexo及部署静态服务器网站</h1>
+  <div class="content">
+    <p>Hexo 是一种基于Node.js驱动，可以快速搭建并部署到GitHub Pages，Heroku等静态服务器的博客框架。优点是Node.js超快渲染，命令行一建部署，维护方便，插件和主题丰富。
+</p>
+
+<h3 id="1-安装hexo">1.安装hexo</h3>
+
+<p>安装Hexo之前，需要安装Node.js和git，略过。npm安装hexo：</p>
+
+<pre><code>$ npm install -g hexo-cli
+</code></pre>
+
+<h3 id="2-hexo-文件夹介绍">2.Hexo 文件夹介绍：</h3>
+
+<p>安装Hexo之后，执行以下命令：</p>
+
+<pre><code>$ hexo init &lt;folder&gt;
+$ cd &lt;folder&gt;
+$ npm install
+</code></pre>
+
+<p>新建完成后，指定文件夹的目录如下：</p>
+
+<pre><code>.
+├── scaffolds
+├── source
+|   ├── _drafts
+|   └── _posts
+├── themes
+├── package.json
+└── _config.yml
+</code></pre>
+
+<h4 id="config-yml">_config.yml</h4>
+
+<p>网站的配置信息</p>
+
+<h4 id="package-json">package.json</h4>
+
+<p>程序所需的npm组件库</p>
+
+<h4 id="scaffolds">scaffolds</h4>
+
+<p>模板文件夹，就是新建的Markdown文件中默认填充的内容</p>
+
+<h4 id="source">source</h4>
+
+<p>资源文件夹，Markdown和HTML文件会被解析并放到public文件夹</p>
+
+<h4 id="themes">themes</h4>
+
+<p>主题文件夹，Hexo会根据主题来生成静态页面</p>
+
+<h3 id="3-发布文章">3.发布文章</h3>
+
+<h4 id="hexo-new">hexo new</h4>
+
+<p>新建一篇文章，会在_post文件夹内生成Markdown文件，然后编辑文件</p>
+
+<h4 id="hexo-generate-hexo-g">hexo generate、hexo g</h4>
+
+<p>生成静态文件到public文件夹，如果没有回自动生成这个文件夹</p>
+
+<h4 id="hexo-server-hexo-s">hexo server、hexo s</h4>
+
+<p>启动本地服务器，查看网站效果</p>
+
+<h4 id="hexo-deploy-hexo-d">hexo deploy、hexo d</h4>
+
+<p>部署网站，git提交到静态服务器</p>
+
+<h4 id="hexo-clean">hexo clean</h4>
+
+<p>清除缓存文件和已经生成的静态文件（public）</p>
+
+<h3 id="4-hexo发布到coding">4.hexo发布到coding</h3>
+
+<ol>
+<li>注册<a href="https://coding.net">coding.net</a>,并且新建一个项目，项目名与用户名一致</li>
+<li>配置本地git，配置hexo远程服务器提交地址</li>
+<li>配置coding的pages服务</li>
+<li>购买域名或者直接访问user.coding.me</li>
+</ol>
+  </div>
+</div>
+<div class="container has-text-centered">
+    
+    <aside><div id="share"></div></aside>
+    <script type="text/javascript">
+        $("#share").jsSocials({
+            showLabel: false,
+            showCount: false,
+            shares: ["email", "twitter", "facebook", "googleplus", "linkedin", "pinterest", "stumbleupon", "whatsapp"]
+        });
+    </script>
+    
+</div>
+
+<div class="container has-text-centered">
+  
+</div>
+<section class="section">
+  <div class="container has-text-centered">
+    <p>&copy; <a href="https://github.com/yuyx91">yuyx91</a> 2018</p>
+  </div>
+</section>
+
+

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>句子 on 在路上</title>
+    <link>https://example.com/tags/%E5%8F%A5%E5%AD%90/</link>
+    <description>Recent content in 句子 on 在路上</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>CN</language>
+    <copyright>&amp;copy; &lt;a href=&#34;https://github.com/yuyx91&#34;&gt;yuyx91&lt;/a&gt; 2018</copyright>
+    <lastBuildDate>Tue, 28 Mar 2017 16:42:38 +0000</lastBuildDate>
+    
+	<atom:link href="https://example.com/tags/%E5%8F%A5%E5%AD%90/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>网易云金句摘抄</title>
+      <link>https://example.com/posts/%E7%BD%91%E6%98%93%E4%BA%91%E9%87%91%E5%8F%A5%E6%91%98%E6%8A%84/</link>
+      <pubDate>Tue, 28 Mar 2017 16:42:38 +0000</pubDate>
+      
+      <guid>https://example.com/posts/%E7%BD%91%E6%98%93%E4%BA%91%E9%87%91%E5%8F%A5%E6%91%98%E6%8A%84/</guid>
+      <description>&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;我喜欢我望向别处时你落在我身上的目光&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;你那么孤独，却说一个人真好&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;当你觉得孤独无助时，想一想还有十几亿的细胞只为了你一个人而活&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;一个人久了，煮个饺子看见两个粘在一起的也要给它分开！&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;我从未拥有过你一秒钟，心里却失去过你千万次。
+&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

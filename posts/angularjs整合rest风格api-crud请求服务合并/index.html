@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="CN">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+
+<title>AngularJs整合REST风格api,CRUD请求服务合并 | 在路上</title>
+
+<link rel="stylesheet" href="https://example.com/css/styles.css">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" 
+integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/zenburn.min.css" crossorigin="anonymous" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<script src="https://example.com/js/highlight.js"></script>
+
+
+
+<link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.jssocials/1.4.0/jssocials.css" />
+<link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.jssocials/1.4.0/jssocials-theme-minima.css" />
+<script type="text/javascript" src="https://example.com/js/jssocials.js"></script>
+
+
+
+
+<div class="container">
+    <nav class="navbar level">
+      <div class="navbar-brand">
+          <a class="nav-item" href="https://example.com"><h1 class="title is-3">在路上</h1></a>
+      </div>           
+      <div class="navbar-menu has-text-centered is-active">
+          <div class="navbar-end is-centered">
+              
+                <a href="https://example.com/about">
+                  <span class="icon">
+                    <i class="fas fa-info"></i>
+                  </span>
+                </a>
+              
+                <a href="https://github.com/yuyx91/">
+                  <span class="icon">
+                    <i class="fab fa-github"></i>
+                  </span>
+                </a>
+              
+                <a href="https://www.linkedin.com/">
+                  <span class="icon">
+                    <i class="fab fa-linkedin-in"></i>
+                  </span>
+                </a>
+              
+                <a href="https://twitter.com/">
+                  <span class="icon">
+                    <i class="fab fa-twitter"></i>
+                  </span>
+                </a>
+              
+           </div>
+      </div>
+    </nav>
+  </div>
+<div class="container">
+  <h2 class="subtitle is-6">April 25, 2017</h2>
+  <h1 class="subtitle is-size-4-mobile is-size-3-desktop">AngularJs整合REST风格api,CRUD请求服务合并</h1>
+  <div class="content">
+    <p>前后端分离项目,前端采用angularJs+webpack,后台采用Spring Boot 微服务框架,REST风格API.
+<strong>RUST关键原则</strong>
+- 为所有“事物”定义ID
+- 将所有事物链接在一起
+- 使用标准方法
+- 资源多重表述
+- 无状态通信</p>
+
+<p>
+因为CURD基本请求都差不多,而且后台云平台支持跨域,主要方法<code>GET</code>,<code>DELETE</code>,<code>POST</code>,<code>PUT</code>,其中<code>GET</code>,<code>POST</code>方法可以传ID;
+直接上代码:</p>
+
+<h3 id="request服务写法">REQUEST服务写法</h3>
+
+<pre><code class="language-javascript">module.exports = function ($http, $q, commonConfig) {
+    return {
+        doRequest: function (url, method, token, data) {
+            console.log(url);
+            console.log(method);
+            console.log(data);
+            var _data = {
+                method: method,
+                url: commonConfig.domain + url,
+                data: data,
+                headers: {
+                    &quot;Accept&quot;: &quot;*/*&quot;,
+                    &quot;accessToken&quot;: token
+                }
+            };
+            var Result = $q.defer();
+            $http(_data).success(function (res) {
+                Result.resolve(res);
+            }).error(function (err) {
+                Result.reject(err);
+            });
+            return Result.promise;
+        }
+    }
+};
+</code></pre>
+
+<h3 id="get-和-delete-请求写法"><code>GET</code>和<code>DELETE</code>请求写法:</h3>
+
+<pre><code class="language-javascript">
+module.exports = function ($scope, RequestService, $state) {
+    var token = '1';
+    $scope.getStudentList=function () {
+        RequestService.doRequest('student/student','GET',token).then(function (res) {
+            console.log(res);
+            $scope.StudentList = res;
+        }, function (error) {
+            console.log(error);
+        });
+    };
+
+    $scope.getStudentList();
+    //选中数组
+    $scope.checkedArry = [];
+    //全选功能
+    $scope.checkAll = function () {
+        if ($scope.check_all) {
+            $scope.checkedArry = [];
+            angular.forEach($scope.StudentList, function (i) {
+                i.checked = true;
+                $scope.checkedArry.push(i.id);
+            });
+        } else {
+            angular.forEach($scope.StudentList, function (i) {
+                i.checked = false;
+                $scope.checkedArry = [];
+            });
+        }
+    };
+    //单选功能
+    $scope.checkOne = function () {
+        angular.forEach($scope.StudentList, function (i) {
+            var index = $scope.checkedArry.indexOf(i.id);
+            if (i.checked &amp;&amp; index === -1) {
+                $scope.checkedArry.push(i.id);
+            } else if (!i.checked &amp;&amp; index !== -1) {
+                $scope.checkedArry.splice(index, 1);
+            }
+        });
+
+        if ($scope.StudentList.length === $scope.checkedArry.length) {
+            $scope.check_all = true;
+        } else {
+            $scope.check_all = false;
+        }
+    };
+    //数据删除
+    $scope.delete = function () {
+        var list = $scope.checkedArry;
+        console.log(list);
+        RequestService.doRequest('student/student?list='+list,'DELETE',token).then(function (res) {
+            console.log(res);
+            $scope.getStudentList();
+        }, function (error) {
+            console.log(error);
+        });
+    }
+};
+</code></pre>
+
+<p>因为这两个方法无需<code>data</code>,<code>DELETE</code>也是根据url传id,id是单选按钮和多选按钮控制的,直接将数据传入.</p>
+
+<h3 id="post-和-put-写法"><code>POST</code>和<code>PUT</code>写法:</h3>
+
+<pre><code class="language-javascript">module.exports = function ($scope, $stateParams, RequestService) {
+  //有参编辑,无参新增
+  var token = '1';
+  if ($stateParams.id) {
+      $scope.getStudentList = function () {
+          RequestService.doRequest('student/student/' + $stateParams.id, 'GET', token).then(function (res) {
+              console.log(res);
+              $scope.StudentList = res;
+          }, function (error) {
+              console.log(error);
+          });
+      };
+      $scope.getStudentList();
+  }
+  var data = {};
+  $scope.submit = function () {
+      RequestService.doRequest('student/student/' + ($stateParams.id ? $stateParams.id : ''), $stateParams.id ? 'PUT' : 'POST', token, data).then(function (res) {
+          console.log(res);
+      }, function (error) {
+          console.log(error);
+      });
+  };
+
+};
+</code></pre>
+
+<p>首先判断是否有url参数,点击新增是无参,点击编辑传递这条数据的id,请求时也是根据参数判断是<code>POST</code>还是<code>PUT</code></p>
+  </div>
+</div>
+<div class="container has-text-centered">
+    
+    <aside><div id="share"></div></aside>
+    <script type="text/javascript">
+        $("#share").jsSocials({
+            showLabel: false,
+            showCount: false,
+            shares: ["email", "twitter", "facebook", "googleplus", "linkedin", "pinterest", "stumbleupon", "whatsapp"]
+        });
+    </script>
+    
+</div>
+
+<div class="container has-text-centered">
+  
+</div>
+<section class="section">
+  <div class="container has-text-centered">
+    <p>&copy; <a href="https://github.com/yuyx91">yuyx91</a> 2018</p>
+  </div>
+</section>
+
+

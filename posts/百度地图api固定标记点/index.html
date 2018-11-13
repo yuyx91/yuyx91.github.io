@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="CN">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+
+<title>百度地图API固定标记点 | 在路上</title>
+
+<link rel="stylesheet" href="https://example.com/css/styles.css">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" 
+integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/zenburn.min.css" crossorigin="anonymous" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<script src="https://example.com/js/highlight.js"></script>
+
+
+
+<link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.jssocials/1.4.0/jssocials.css" />
+<link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.jssocials/1.4.0/jssocials-theme-minima.css" />
+<script type="text/javascript" src="https://example.com/js/jssocials.js"></script>
+
+
+
+
+<div class="container">
+    <nav class="navbar level">
+      <div class="navbar-brand">
+          <a class="nav-item" href="https://example.com"><h1 class="title is-3">在路上</h1></a>
+      </div>           
+      <div class="navbar-menu has-text-centered is-active">
+          <div class="navbar-end is-centered">
+              
+                <a href="https://example.com/about">
+                  <span class="icon">
+                    <i class="fas fa-info"></i>
+                  </span>
+                </a>
+              
+                <a href="https://github.com/yuyx91/">
+                  <span class="icon">
+                    <i class="fab fa-github"></i>
+                  </span>
+                </a>
+              
+                <a href="https://www.linkedin.com/">
+                  <span class="icon">
+                    <i class="fab fa-linkedin-in"></i>
+                  </span>
+                </a>
+              
+                <a href="https://twitter.com/">
+                  <span class="icon">
+                    <i class="fab fa-twitter"></i>
+                  </span>
+                </a>
+              
+           </div>
+      </div>
+    </nav>
+  </div>
+<div class="container">
+  <h2 class="subtitle is-6">February 22, 2017</h2>
+  <h1 class="subtitle is-size-4-mobile is-size-3-desktop">百度地图API固定标记点</h1>
+  <div class="content">
+    <h3 id="1-首先注册百度地图api-创建应用-获取ak码">1.首先注册百度地图API，创建应用，获取ak码。</h3>
+
+<p><a href="http://lbsyun.baidu.com/" title="百度地图API" target="_blank">百度地图API</a>
+</p>
+
+<h3 id="2-html页面布局">2.HTML页面布局</h3>
+
+<pre><code class="language-html">    &lt;div id=&quot;mymap&quot; style=&quot;width:100%;height:500px;overflow:hidden&quot;&gt;&lt;/div&gt;
+</code></pre>
+
+<h3 id="3-引入带有ak密钥的js">3.引入带有ak密钥的js</h3>
+
+<pre><code class="language-js">    &lt;script type=&quot;text/javascript&quot; src=&quot;http://api.map.baidu.com/api?v=2.0&amp;ak=GjRyiHdbmru1jctFIodetnZQ&quot;&gt;&lt;/script&gt;
+</code></pre>
+
+<h3 id="4-创建js配置地图">4.创建js配置地图</h3>
+
+<pre><code class="language-js">    &lt;script&gt;
+            // 百度地图API功能
+            //创建map地图实例
+            var map = new BMap.Map('mymap');
+            //设置中心点，固定位置：百度大厦
+            var poi = new BMap.Point(116.307852,40.057031);
+            map.centerAndZoom(poi, 16);
+            //启用滚轮放大缩小，默认禁用
+            map.enableScrollWheelZoom();
+            //启用地图惯性拖拽，默认禁用
+            map.enableContinuousZoom();
+            //创建信息展示窗口
+            var content = '&lt;div style=&quot;margin:0;line-height:20px;padding:2px;&quot;&gt;' +
+                            '&lt;img src=&quot;../img/baidu.jpg&quot; alt=&quot;&quot; style=&quot;float:right;zoom:1;overflow:hidden;width:100px;height:100px;margin-left:3px;&quot;/&gt;' +
+                            '地址：北京市海淀区上地十街10号&lt;br/&gt;电话：(010)59928888&lt;br/&gt;简介：百度大厦位于北京市海淀区西二旗地铁站附近，为百度公司综合研发及办公总部。' +
+                          '&lt;/div&gt;';
+
+            //创建检索信息窗口对象
+            var searchInfoWindow = null;
+        	searchInfoWindow = new BMapLib.SearchInfoWindow(map, content, {
+        			title  : &quot;百度大厦&quot;,      //标题
+        			width  : 290,             //宽度
+        			height : 105,              //高度
+        			panel  : &quot;panel&quot;,         //检索结果面板
+        			enableAutoPan : true,     //自动平移
+        			searchTypes   :[
+        				BMAPLIB_TAB_SEARCH,   //周边检索
+        				BMAPLIB_TAB_TO_HERE,  //到这里去
+        				BMAPLIB_TAB_FROM_HERE //从这里出发
+        			]
+        		});
+        	//创建标注
+            var marker = new BMap.Marker(poi); //创建marker对象
+            marker.enableDragging(); //marker可拖拽
+            marker.addEventListener(&quot;click&quot;, function(e){
+        	    searchInfoWindow.open(marker);
+            })
+            map.addOverlay(marker); //在地图中添加marker
+          	marker.setAnimation(BMAP_ANIMATION_BOUNCE);//设置标注跳动动画
+    &lt;/script&gt;
+</code></pre>
+
+<h3 id="5-示例">5.示例</h3>
+
+<p><div id="mymap" style="width:100%;height:500px;overflow:hidden">
+<script src="http://api.map.baidu.com/api?v=2.0&ak=GjRyiHdbmru1jctFIodetnZQ"></script>
+<script>
+            var map = new BMap.Map(&ldquo;mymap&rdquo;);
+                        var point = new BMap.Point(113.936253,22.542715);
+                        map.centerAndZoom(point, 17);
+                        map.enableScrollWheelZoom();
+                        map.enableContinuousZoom();
+                        var marker = new BMap.Marker(point);
+                        map.addOverlay(marker);
+                        marker.setAnimation(BMAP_ANIMATION_BOUNCE);
+                        var opts = {
+                          width : 200,     // 信息窗口宽度
+                          height: 50,     // 信息窗口高度
+                          title : &ldquo;深圳市荔香公园&rdquo; , // 信息窗口标题
+                        }
+                        var infoWindow = new BMap.InfoWindow(&ldquo;地址：深圳市南山区南光路与南头街交界处&rdquo;, opts);  // 创建信息窗口对象
+                        marker.addEventListener(&ldquo;click&rdquo;,function(){
+                            map.openInfoWindow(infoWindow,point);
+                        })
+    </script></p>
+  </div>
+</div>
+<div class="container has-text-centered">
+    
+    <aside><div id="share"></div></aside>
+    <script type="text/javascript">
+        $("#share").jsSocials({
+            showLabel: false,
+            showCount: false,
+            shares: ["email", "twitter", "facebook", "googleplus", "linkedin", "pinterest", "stumbleupon", "whatsapp"]
+        });
+    </script>
+    
+</div>
+
+<div class="container has-text-centered">
+  
+</div>
+<section class="section">
+  <div class="container has-text-centered">
+    <p>&copy; <a href="https://github.com/yuyx91">yuyx91</a> 2018</p>
+  </div>
+</section>
+
+

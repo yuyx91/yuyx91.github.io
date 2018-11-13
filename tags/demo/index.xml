@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Demo on 在路上</title>
+    <link>https://example.com/tags/demo/</link>
+    <description>Recent content in Demo on 在路上</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>CN</language>
+    <copyright>&amp;copy; &lt;a href=&#34;https://github.com/yuyx91&#34;&gt;yuyx91&lt;/a&gt; 2018</copyright>
+    <lastBuildDate>Thu, 29 Dec 2016 14:04:18 +0000</lastBuildDate>
+    
+	<atom:link href="https://example.com/tags/demo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>js&#43;css3实现高度自适应折叠菜单</title>
+      <link>https://example.com/posts/js-css3%E5%AE%9E%E7%8E%B0%E9%AB%98%E5%BA%A6%E8%87%AA%E9%80%82%E5%BA%94%E6%8A%98%E5%8F%A0%E8%8F%9C%E5%8D%95/</link>
+      <pubDate>Thu, 29 Dec 2016 14:04:18 +0000</pubDate>
+      
+      <guid>https://example.com/posts/js-css3%E5%AE%9E%E7%8E%B0%E9%AB%98%E5%BA%A6%E8%87%AA%E9%80%82%E5%BA%94%E6%8A%98%E5%8F%A0%E8%8F%9C%E5%8D%95/</guid>
+      <description>&lt;p&gt;虽然使用jquery实现的折叠菜单非常简便，直接使用slideUp()和slideDown()方法，但是手机端使用jquery太不方便，可以考虑使用原生js+css3实现。&lt;br /&gt;
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>jquery实现导航栏滑动底边</title>
+      <link>https://example.com/posts/jquery%E5%AE%9E%E7%8E%B0%E5%AF%BC%E8%88%AA%E6%A0%8F%E6%BB%91%E5%8A%A8%E5%BA%95%E8%BE%B9/</link>
+      <pubDate>Wed, 16 Nov 2016 17:14:08 +0000</pubDate>
+      
+      <guid>https://example.com/posts/jquery%E5%AE%9E%E7%8E%B0%E5%AF%BC%E8%88%AA%E6%A0%8F%E6%BB%91%E5%8A%A8%E5%BA%95%E8%BE%B9/</guid>
+      <description>&lt;p&gt;公司的新网站，加入一些比较炫的效果，利用jquery实现滑动跟随导航栏底边。
+&lt;br /&gt;
+废话不多说，前端代码：&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>原生js做的雪花效果</title>
+      <link>https://example.com/posts/%E5%8E%9F%E7%94%9Fjs%E5%81%9A%E7%9A%84%E9%9B%AA%E8%8A%B1%E6%95%88%E6%9E%9C/</link>
+      <pubDate>Thu, 10 Nov 2016 15:54:32 +0000</pubDate>
+      
+      <guid>https://example.com/posts/%E5%8E%9F%E7%94%9Fjs%E5%81%9A%E7%9A%84%E9%9B%AA%E8%8A%B1%E6%95%88%E6%9E%9C/</guid>
+      <description>demo地址</description>
+    </item>
+    
+    <item>
+      <title>一种简单的方法实现网站底部固定</title>
+      <link>https://example.com/posts/%E4%B8%80%E7%A7%8D%E7%AE%80%E5%8D%95%E7%9A%84%E6%96%B9%E6%B3%95%E5%AE%9E%E7%8E%B0%E7%BD%91%E7%AB%99%E5%BA%95%E9%83%A8%E5%9B%BA%E5%AE%9A/</link>
+      <pubDate>Thu, 10 Nov 2016 11:45:10 +0000</pubDate>
+      
+      <guid>https://example.com/posts/%E4%B8%80%E7%A7%8D%E7%AE%80%E5%8D%95%E7%9A%84%E6%96%B9%E6%B3%95%E5%AE%9E%E7%8E%B0%E7%BD%91%E7%AB%99%E5%BA%95%E9%83%A8%E5%9B%BA%E5%AE%9A/</guid>
+      <description>&lt;p&gt;现在电脑的屏幕分辨率越来越大，网站的底部浮在半腰非常难看&amp;hellip;&lt;br /&gt;
+
+&amp;gt; 参考本博客的方法，可以轻易的实现网站底部自动固定。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

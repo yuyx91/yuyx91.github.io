@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nodejs on 在路上</title>
+    <link>https://example.com/tags/nodejs/</link>
+    <description>Recent content in Nodejs on 在路上</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>CN</language>
+    <copyright>&amp;copy; &lt;a href=&#34;https://github.com/yuyx91&#34;&gt;yuyx91&lt;/a&gt; 2018</copyright>
+    <lastBuildDate>Wed, 17 May 2017 17:39:35 +0000</lastBuildDate>
+    
+	<atom:link href="https://example.com/tags/nodejs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>NodeJs打造静态服务器以及ngrok映射外网</title>
+      <link>https://example.com/posts/nodejs%E6%89%93%E9%80%A0%E9%9D%99%E6%80%81%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%BB%A5%E5%8F%8Angrok%E6%98%A0%E5%B0%84%E5%A4%96%E7%BD%91/</link>
+      <pubDate>Wed, 17 May 2017 17:39:35 +0000</pubDate>
+      
+      <guid>https://example.com/posts/nodejs%E6%89%93%E9%80%A0%E9%9D%99%E6%80%81%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%BB%A5%E5%8F%8Angrok%E6%98%A0%E5%B0%84%E5%A4%96%E7%BD%91/</guid>
+      <description>1.在文件主目录创建app.js
+ 2.配置静态文件夹
+ 3.安装ngork
+npm i ngrok --g  4.启动服务器端口
+node app.js  5.开启ngrok暴露端口
+ngrok http 3000  6.打开ngrok分配的地址
+7.打开localhost://4040,查看请求详情</description>
+    </item>
+    
+  </channel>
+</rss>

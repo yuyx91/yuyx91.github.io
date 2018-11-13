@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Windows on 在路上</title>
+    <link>https://example.com/tags/windows/</link>
+    <description>Recent content in Windows on 在路上</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>CN</language>
+    <copyright>&amp;copy; &lt;a href=&#34;https://github.com/yuyx91&#34;&gt;yuyx91&lt;/a&gt; 2018</copyright>
+    <lastBuildDate>Thu, 23 Feb 2017 13:55:01 +0000</lastBuildDate>
+    
+	<atom:link href="https://example.com/tags/windows/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>windows使用快捷键</title>
+      <link>https://example.com/posts/windows%E4%BD%BF%E7%94%A8%E5%BF%AB%E6%8D%B7%E9%94%AE/</link>
+      <pubDate>Thu, 23 Feb 2017 13:55:01 +0000</pubDate>
+      
+      <guid>https://example.com/posts/windows%E4%BD%BF%E7%94%A8%E5%BF%AB%E6%8D%B7%E9%94%AE/</guid>
+      <description> Win+L：快速锁屏/息屏 Win+E：打开资源管理器 Win+D：显示桌面 Win+Tab：切换窗口 Win+R并且输入psr：开启windows自带录像功能 Win+R并且输入osk：开启虚拟键盘  </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Markdown on 在路上</title>
+    <link>https://example.com/tags/markdown/</link>
+    <description>Recent content in Markdown on 在路上</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>CN</language>
+    <copyright>&amp;copy; &lt;a href=&#34;https://github.com/yuyx91&#34;&gt;yuyx91&lt;/a&gt; 2018</copyright>
+    <lastBuildDate>Mon, 07 Nov 2016 17:34:25 +0000</lastBuildDate>
+    
+	<atom:link href="https://example.com/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>先记一下markdown笔记，边学边写</title>
+      <link>https://example.com/posts/%E5%85%88%E8%AE%B0%E4%B8%80%E4%B8%8Bmarkdown%E7%AC%94%E8%AE%B0%E8%BE%B9%E5%AD%A6%E8%BE%B9%E5%86%99/</link>
+      <pubDate>Mon, 07 Nov 2016 17:34:25 +0000</pubDate>
+      
+      <guid>https://example.com/posts/%E5%85%88%E8%AE%B0%E4%B8%80%E4%B8%8Bmarkdown%E7%AC%94%E8%AE%B0%E8%BE%B9%E5%AD%A6%E8%BE%B9%E5%86%99/</guid>
+      <description>&lt;h2 id=&#34;概述&#34;&gt;概述&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Markdown 是一种轻量级的「标记语言」，它的优点很多，目前也被越来越多的写作爱好者，撰稿者广泛使用。Markdown的语法十分简单,完全兼容HTML。常用的标记符号也不超过十个，这种相对于更为复杂的HTML 标记语言来说，Markdown 可谓是十分轻量的，学习成本也不需要太多，且一旦熟悉这种语法规则，会有一劳永逸的效果。
+&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

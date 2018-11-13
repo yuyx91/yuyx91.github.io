@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Css on 在路上</title>
+    <link>https://example.com/tags/css/</link>
+    <description>Recent content in Css on 在路上</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>CN</language>
+    <copyright>&amp;copy; &lt;a href=&#34;https://github.com/yuyx91&#34;&gt;yuyx91&lt;/a&gt; 2018</copyright>
+    <lastBuildDate>Sun, 05 Feb 2017 08:56:42 +0000</lastBuildDate>
+    
+	<atom:link href="https://example.com/tags/css/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>flex和grid布局</title>
+      <link>https://example.com/posts/flex%E5%92%8Cgrid%E5%B8%83%E5%B1%80/</link>
+      <pubDate>Sun, 05 Feb 2017 08:56:42 +0000</pubDate>
+      
+      <guid>https://example.com/posts/flex%E5%92%8Cgrid%E5%B8%83%E5%B1%80/</guid>
+      <description>&lt;p&gt;传统的布局解决方案，基于盒式模型，它对应那些特殊布局非常不方便，比如垂直居中。2009年，W3C提出了一种新的方案&amp;ndash;Flex布局，可以简便、完整、响应式地实现各种页面布局。
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>rem布局实践</title>
+      <link>https://example.com/posts/rem%E5%B8%83%E5%B1%80%E5%AE%9E%E8%B7%B5/</link>
+      <pubDate>Thu, 17 Nov 2016 11:23:19 +0000</pubDate>
+      
+      <guid>https://example.com/posts/rem%E5%B8%83%E5%B1%80%E5%AE%9E%E8%B7%B5/</guid>
+      <description>手机端和微信端做的项目不少，一直是@media媒体查询和vw混用，蒙混过关，但是也会有很多兼容性的问题，并不能做到完全响应。所以最近关注一下比较流行的rem布局。
+一般比较简单的rem布局是这样的，设置html的font-size:100px，组件的单位相对于font-size进行调整，也就是rem。然后根据设备的宽度，使用js动态调整font-size，以达到响应式的布局。
+简单的例子：
+(function(){ var f = document.documentElement.clientWidth; if(f &amp;gt; = 640){ document.documentElement.style.fontSize = &#39;100px&#39;; }esle{ document.documentElement.style.fontSize = 100 * (f/640) + &#39;px&#39;; } })()  这种布局简单易懂，小屏幕下组件和字体大小同比例缩小，使得布局和大屏幕一致，但是这样效果并不理想，因为小屏幕下字体应该一致结果反而变小了，影响阅读效果，这也是我的疑惑。
+参考手机端页面自适应解决方案—rem布局
+完整代码：
+(function (doc, win) { var docEl = doc.documentElement, //横屏效果 resizeEvt = &#39;orientationchange&#39; in window ? &#39;orientationchange&#39; : &#39;resize&#39;, recalc = function () { var clientWidth = docEl.clientWidth; if (!clientWidth) return; if(clientWidth&amp;gt;=640){ docEl.style.fontSize = &#39;100px&#39;; }else{ docEl.style.fontSize = 100 * (clientWidth / 640) + &#39;px&#39;; } }; if (!</description>
+    </item>
+    
+  </channel>
+</rss>
