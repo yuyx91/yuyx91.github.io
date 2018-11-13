@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Kindle on 在路上</title>
-    <link>https://example.com/tags/kindle/</link>
+    <link>https://yuyx91.github.io/tags/kindle/</link>
     <description>Recent content in Kindle on 在路上</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>CN</language>
     <copyright>&amp;copy; &lt;a href=&#34;https://github.com/yuyx91&#34;&gt;yuyx91&lt;/a&gt; 2018</copyright>
     <lastBuildDate>Mon, 13 Mar 2017 11:01:10 +0000</lastBuildDate>
     
-	<atom:link href="https://example.com/tags/kindle/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://yuyx91.github.io/tags/kindle/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>kindle绑定Amazon账号以及邮箱推送</title>
-      <link>https://example.com/posts/kindle%E7%BB%91%E5%AE%9Aamazon%E8%B4%A6%E5%8F%B7%E4%BB%A5%E5%8F%8A%E9%82%AE%E7%AE%B1%E6%8E%A8%E9%80%81/</link>
+      <link>https://yuyx91.github.io/posts/kindle%E7%BB%91%E5%AE%9Aamazon%E8%B4%A6%E5%8F%B7%E4%BB%A5%E5%8F%8A%E9%82%AE%E7%AE%B1%E6%8E%A8%E9%80%81/</link>
       <pubDate>Mon, 13 Mar 2017 11:01:10 +0000</pubDate>
       
-      <guid>https://example.com/posts/kindle%E7%BB%91%E5%AE%9Aamazon%E8%B4%A6%E5%8F%B7%E4%BB%A5%E5%8F%8A%E9%82%AE%E7%AE%B1%E6%8E%A8%E9%80%81/</guid>
+      <guid>https://yuyx91.github.io/posts/kindle%E7%BB%91%E5%AE%9Aamazon%E8%B4%A6%E5%8F%B7%E4%BB%A5%E5%8F%8A%E9%82%AE%E7%AE%B1%E6%8E%A8%E9%80%81/</guid>
       <description>&lt;p&gt;长草很久的kindle，终于一咬牙下单了， paperwhite 3代经典版，记录一下如何在线推送&lt;code&gt;免费&lt;/code&gt;电子书hiahia：
 &lt;/p&gt;</description>
     </item>

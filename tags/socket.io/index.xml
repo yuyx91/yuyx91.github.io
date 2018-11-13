@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Socket.io on 在路上</title>
-    <link>https://example.com/tags/socket.io/</link>
+    <link>https://yuyx91.github.io/tags/socket.io/</link>
     <description>Recent content in Socket.io on 在路上</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>CN</language>
     <copyright>&amp;copy; &lt;a href=&#34;https://github.com/yuyx91&#34;&gt;yuyx91&lt;/a&gt; 2018</copyright>
     <lastBuildDate>Wed, 17 May 2017 16:51:31 +0000</lastBuildDate>
     
-	<atom:link href="https://example.com/tags/socket.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://yuyx91.github.io/tags/socket.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>使用socket.io打造简易聊天室</title>
-      <link>https://example.com/posts/%E4%BD%BF%E7%94%A8socket-io%E6%89%93%E9%80%A0%E7%AE%80%E6%98%93%E8%81%8A%E5%A4%A9%E5%AE%A4/</link>
+      <link>https://yuyx91.github.io/posts/%E4%BD%BF%E7%94%A8socket-io%E6%89%93%E9%80%A0%E7%AE%80%E6%98%93%E8%81%8A%E5%A4%A9%E5%AE%A4/</link>
       <pubDate>Wed, 17 May 2017 16:51:31 +0000</pubDate>
       
-      <guid>https://example.com/posts/%E4%BD%BF%E7%94%A8socket-io%E6%89%93%E9%80%A0%E7%AE%80%E6%98%93%E8%81%8A%E5%A4%A9%E5%AE%A4/</guid>
+      <guid>https://yuyx91.github.io/posts/%E4%BD%BF%E7%94%A8socket-io%E6%89%93%E9%80%A0%E7%AE%80%E6%98%93%E8%81%8A%E5%A4%A9%E5%AE%A4/</guid>
       <description>&lt;p&gt;要理解socket.io ，不得不谈谈websocket;在html5之前，因为http协议是无状态的，要实现浏览器与服务器的实时通讯，如果不使用 flash、applet 等浏览器插件的话，就需要定期轮询服务器来获取信息。这造成了一定的延迟和大量的网络通讯。随着HTML5 的出现，这一情况有望彻底改观，它就是 WebSocket 。
 socket.io是对websocket的封装,此外它还把轮询（Polling）机制以及其它的实时通信方式封装成了通用的接口,下面是按照官网例子实现的简易聊天室:
 

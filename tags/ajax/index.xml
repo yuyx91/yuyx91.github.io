@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ajax on 在路上</title>
-    <link>https://example.com/tags/ajax/</link>
+    <link>https://yuyx91.github.io/tags/ajax/</link>
     <description>Recent content in Ajax on 在路上</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>CN</language>
     <copyright>&amp;copy; &lt;a href=&#34;https://github.com/yuyx91&#34;&gt;yuyx91&lt;/a&gt; 2018</copyright>
     <lastBuildDate>Wed, 16 Nov 2016 09:47:31 +0000</lastBuildDate>
     
-	<atom:link href="https://example.com/tags/ajax/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://yuyx91.github.io/tags/ajax/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>原生Js创建ajax发送表单</title>
-      <link>https://example.com/posts/%E5%8E%9F%E7%94%9Fjs%E5%88%9B%E5%BB%BAajax%E5%8F%91%E9%80%81%E8%A1%A8%E5%8D%95/</link>
+      <link>https://yuyx91.github.io/posts/%E5%8E%9F%E7%94%9Fjs%E5%88%9B%E5%BB%BAajax%E5%8F%91%E9%80%81%E8%A1%A8%E5%8D%95/</link>
       <pubDate>Wed, 16 Nov 2016 09:47:31 +0000</pubDate>
       
-      <guid>https://example.com/posts/%E5%8E%9F%E7%94%9Fjs%E5%88%9B%E5%BB%BAajax%E5%8F%91%E9%80%81%E8%A1%A8%E5%8D%95/</guid>
+      <guid>https://yuyx91.github.io/posts/%E5%8E%9F%E7%94%9Fjs%E5%88%9B%E5%BB%BAajax%E5%8F%91%E9%80%81%E8%A1%A8%E5%8D%95/</guid>
       <description>&lt;p&gt;一直使用jquery的ajax和后台交互，对ajax的原理不是很了解，而且轻量化的手机端不适合使用jquery操作，研究一下原生的ajax有助于对http的深入理解。&lt;/p&gt;</description>
     </item>
     

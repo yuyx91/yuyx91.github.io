@@ -2,32 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Api on 在路上</title>
-    <link>https://example.com/tags/api/</link>
+    <link>https://yuyx91.github.io/tags/api/</link>
     <description>Recent content in Api on 在路上</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>CN</language>
     <copyright>&amp;copy; &lt;a href=&#34;https://github.com/yuyx91&#34;&gt;yuyx91&lt;/a&gt; 2018</copyright>
     <lastBuildDate>Tue, 14 Mar 2017 10:02:10 +0000</lastBuildDate>
     
-	<atom:link href="https://example.com/tags/api/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://yuyx91.github.io/tags/api/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Javascript常用API合集</title>
-      <link>https://example.com/posts/javascript%E5%B8%B8%E7%94%A8api%E5%90%88%E9%9B%86/</link>
+      <link>https://yuyx91.github.io/posts/javascript%E5%B8%B8%E7%94%A8api%E5%90%88%E9%9B%86/</link>
       <pubDate>Tue, 14 Mar 2017 10:02:10 +0000</pubDate>
       
-      <guid>https://example.com/posts/javascript%E5%B8%B8%E7%94%A8api%E5%90%88%E9%9B%86/</guid>
+      <guid>https://yuyx91.github.io/posts/javascript%E5%B8%B8%E7%94%A8api%E5%90%88%E9%9B%86/</guid>
       <description>&lt;p&gt;收集Javascript常用API合集，来源web前端开发。
 &lt;/p&gt;</description>
     </item>
     
     <item>
       <title>百度地图API固定标记点</title>
-      <link>https://example.com/posts/%E7%99%BE%E5%BA%A6%E5%9C%B0%E5%9B%BEapi%E5%9B%BA%E5%AE%9A%E6%A0%87%E8%AE%B0%E7%82%B9/</link>
+      <link>https://yuyx91.github.io/posts/%E7%99%BE%E5%BA%A6%E5%9C%B0%E5%9B%BEapi%E5%9B%BA%E5%AE%9A%E6%A0%87%E8%AE%B0%E7%82%B9/</link>
       <pubDate>Wed, 22 Feb 2017 10:25:25 +0000</pubDate>
       
-      <guid>https://example.com/posts/%E7%99%BE%E5%BA%A6%E5%9C%B0%E5%9B%BEapi%E5%9B%BA%E5%AE%9A%E6%A0%87%E8%AE%B0%E7%82%B9/</guid>
+      <guid>https://yuyx91.github.io/posts/%E7%99%BE%E5%BA%A6%E5%9C%B0%E5%9B%BEapi%E5%9B%BA%E5%AE%9A%E6%A0%87%E8%AE%B0%E7%82%B9/</guid>
       <description>&lt;h3 id=&#34;1-首先注册百度地图api-创建应用-获取ak码&#34;&gt;1.首先注册百度地图API，创建应用，获取ak码。&lt;/h3&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://lbsyun.baidu.com/&#34; title=&#34;百度地图API&#34; target=&#34;_blank&#34;&gt;百度地图API&lt;/a&gt;

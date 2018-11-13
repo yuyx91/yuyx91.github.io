@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Angular on 在路上</title>
-    <link>https://example.com/tags/angular/</link>
+    <link>https://yuyx91.github.io/tags/angular/</link>
     <description>Recent content in Angular on 在路上</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>CN</language>
     <copyright>&amp;copy; &lt;a href=&#34;https://github.com/yuyx91&#34;&gt;yuyx91&lt;/a&gt; 2018</copyright>
     <lastBuildDate>Tue, 25 Apr 2017 16:18:15 +0000</lastBuildDate>
     
-	<atom:link href="https://example.com/tags/angular/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://yuyx91.github.io/tags/angular/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>AngularJs整合REST风格api,CRUD请求服务合并</title>
-      <link>https://example.com/posts/angularjs%E6%95%B4%E5%90%88rest%E9%A3%8E%E6%A0%BCapi-crud%E8%AF%B7%E6%B1%82%E6%9C%8D%E5%8A%A1%E5%90%88%E5%B9%B6/</link>
+      <link>https://yuyx91.github.io/posts/angularjs%E6%95%B4%E5%90%88rest%E9%A3%8E%E6%A0%BCapi-crud%E8%AF%B7%E6%B1%82%E6%9C%8D%E5%8A%A1%E5%90%88%E5%B9%B6/</link>
       <pubDate>Tue, 25 Apr 2017 16:18:15 +0000</pubDate>
       
-      <guid>https://example.com/posts/angularjs%E6%95%B4%E5%90%88rest%E9%A3%8E%E6%A0%BCapi-crud%E8%AF%B7%E6%B1%82%E6%9C%8D%E5%8A%A1%E5%90%88%E5%B9%B6/</guid>
+      <guid>https://yuyx91.github.io/posts/angularjs%E6%95%B4%E5%90%88rest%E9%A3%8E%E6%A0%BCapi-crud%E8%AF%B7%E6%B1%82%E6%9C%8D%E5%8A%A1%E5%90%88%E5%B9%B6/</guid>
       <description>&lt;p&gt;前后端分离项目,前端采用angularJs+webpack,后台采用Spring Boot 微服务框架,REST风格API.
 &lt;strong&gt;RUST关键原则&lt;/strong&gt;
 - 为所有“事物”定义ID
@@ -29,10 +29,10 @@
     
     <item>
       <title>webpack打包整合angular1项目实践</title>
-      <link>https://example.com/posts/webpack%E6%89%93%E5%8C%85%E6%95%B4%E5%90%88angular1%E9%A1%B9%E7%9B%AE%E5%AE%9E%E8%B7%B5/</link>
+      <link>https://yuyx91.github.io/posts/webpack%E6%89%93%E5%8C%85%E6%95%B4%E5%90%88angular1%E9%A1%B9%E7%9B%AE%E5%AE%9E%E8%B7%B5/</link>
       <pubDate>Sat, 08 Apr 2017 08:58:36 +0000</pubDate>
       
-      <guid>https://example.com/posts/webpack%E6%89%93%E5%8C%85%E6%95%B4%E5%90%88angular1%E9%A1%B9%E7%9B%AE%E5%AE%9E%E8%B7%B5/</guid>
+      <guid>https://yuyx91.github.io/posts/webpack%E6%89%93%E5%8C%85%E6%95%B4%E5%90%88angular1%E9%A1%B9%E7%9B%AE%E5%AE%9E%E8%B7%B5/</guid>
       <description>&lt;p&gt;掌握了模块化思想,angular1的学习曲线就不会那么陡峭,一般的angular项目多使用requireJS整合代码,requireJS使用AMD规范,虽然也是模块化引入,但是没有做到打包代码,运行时是逐个加载js,而且需要额外引入requireJS,
 webpack模块化采用commomJS规范,和nodeJS语法一样.而且不依赖其他js文件,打包时合并为一个文件,减少HTTP请求.下面来具体讲一讲如何使用webpack一步步构建angular项目:
 &lt;/p&gt;</description>
@@ -40,10 +40,10 @@ webpack模块化采用commomJS规范,和nodeJS语法一样.而且不依赖其他
     
     <item>
       <title>angular配置Ueditor</title>
-      <link>https://example.com/posts/angular%E9%85%8D%E7%BD%AEueditor/</link>
+      <link>https://yuyx91.github.io/posts/angular%E9%85%8D%E7%BD%AEueditor/</link>
       <pubDate>Fri, 10 Mar 2017 10:38:50 +0000</pubDate>
       
-      <guid>https://example.com/posts/angular%E9%85%8D%E7%BD%AEueditor/</guid>
+      <guid>https://yuyx91.github.io/posts/angular%E9%85%8D%E7%BD%AEueditor/</guid>
       <description>angular中使用Ueditor注意事项： 把Ueditor文件夹复制到资源目录中，index.html中引入ueditor.config.js，ueditor.min.js; 不能直接在html文件中实例化Ueditor，需要在controller中进行。
 //先销毁上一个editor实例； UE.delEditor(&amp;quot;editor&amp;quot;); //实例化 var ue = UE.getEditor(&#39;editor&#39;); if($scope.notice.value){ $scope.title= $scope.notice.value.Title; ue.ready(function () { // 带入编辑内容内容 // editor准备好之后才可以使用 ue.setContent($scope.notice.value.Content); }); }  </description>
     </item>

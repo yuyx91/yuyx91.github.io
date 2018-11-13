@@ -2,32 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Es6 on 在路上</title>
-    <link>https://example.com/tags/es6/</link>
+    <link>https://yuyx91.github.io/tags/es6/</link>
     <description>Recent content in Es6 on 在路上</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>CN</language>
     <copyright>&amp;copy; &lt;a href=&#34;https://github.com/yuyx91&#34;&gt;yuyx91&lt;/a&gt; 2018</copyright>
     <lastBuildDate>Mon, 05 Dec 2016 09:27:22 +0000</lastBuildDate>
     
-	<atom:link href="https://example.com/tags/es6/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://yuyx91.github.io/tags/es6/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>《ECMAScript6入门》笔记（二）</title>
-      <link>https://example.com/posts/ecmascript6%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0%E4%BA%8C/</link>
+      <link>https://yuyx91.github.io/posts/ecmascript6%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0%E4%BA%8C/</link>
       <pubDate>Mon, 05 Dec 2016 09:27:22 +0000</pubDate>
       
-      <guid>https://example.com/posts/ecmascript6%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0%E4%BA%8C/</guid>
+      <guid>https://yuyx91.github.io/posts/ecmascript6%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0%E4%BA%8C/</guid>
       <description>&lt;p&gt;ES6还包括变量的扩展、数组的扩展、对象的扩展等。暂时略过，只记一下比较重要的。
 &lt;/p&gt;</description>
     </item>
     
     <item>
       <title>《ECMAScript6入门》笔记</title>
-      <link>https://example.com/posts/ecmascript6%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0/</link>
+      <link>https://yuyx91.github.io/posts/ecmascript6%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0/</link>
       <pubDate>Fri, 25 Nov 2016 11:53:13 +0800</pubDate>
       
-      <guid>https://example.com/posts/ecmascript6%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0/</guid>
+      <guid>https://yuyx91.github.io/posts/ecmascript6%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0/</guid>
       <description>&lt;p&gt;最近学习了vue2.0，顺便记一下ES6的语法&lt;br /&gt;
 &lt;/p&gt;</description>
     </item>

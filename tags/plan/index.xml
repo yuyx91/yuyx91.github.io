@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Plan on 在路上</title>
-    <link>https://example.com/tags/plan/</link>
+    <link>https://yuyx91.github.io/tags/plan/</link>
     <description>Recent content in Plan on 在路上</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>CN</language>
     <copyright>&amp;copy; &lt;a href=&#34;https://github.com/yuyx91&#34;&gt;yuyx91&lt;/a&gt; 2018</copyright>
     <lastBuildDate>Wed, 15 Mar 2017 15:36:28 +0000</lastBuildDate>
     
-	<atom:link href="https://example.com/tags/plan/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://yuyx91.github.io/tags/plan/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>阅读计划：2017</title>
-      <link>https://example.com/posts/%E9%98%85%E8%AF%BB%E8%AE%A1%E5%88%922017/</link>
+      <link>https://yuyx91.github.io/posts/%E9%98%85%E8%AF%BB%E8%AE%A1%E5%88%922017/</link>
       <pubDate>Wed, 15 Mar 2017 15:36:28 +0000</pubDate>
       
-      <guid>https://example.com/posts/%E9%98%85%E8%AF%BB%E8%AE%A1%E5%88%922017/</guid>
+      <guid>https://yuyx91.github.io/posts/%E9%98%85%E8%AF%BB%E8%AE%A1%E5%88%922017/</guid>
       <description>☑ 0313-0313:《麦田里的守望者》&amp;ndash;杰罗姆·大卫·塞林格 ☑ 0314-0316:《解忧杂货铺》&amp;ndash;东野圭吾 ☑ 0317-0318:《人间失格》&amp;ndash;太宰治 ☑ 0318-0322:《未来简史》&amp;ndash;尤瓦尔·赫拉利 ☑ 0323-0323:《一个人的好天气》&amp;ndash;青山七惠 ☑ 0324-??:《人类简史》&amp;ndash;尤瓦尔·赫拉利 ☑ 0325-0405:《1984》&amp;ndash;乔治·奥威尔 ☑ 0406-??:《沉思录》&amp;ndash;</description>
     </item>
     
     <item>
       <title>近期学习计划</title>
-      <link>https://example.com/posts/%E8%BF%91%E6%9C%9F%E5%AD%A6%E4%B9%A0%E8%AE%A1%E5%88%92/</link>
+      <link>https://yuyx91.github.io/posts/%E8%BF%91%E6%9C%9F%E5%AD%A6%E4%B9%A0%E8%AE%A1%E5%88%92/</link>
       <pubDate>Fri, 11 Nov 2016 10:46:41 +0000</pubDate>
       
-      <guid>https://example.com/posts/%E8%BF%91%E6%9C%9F%E5%AD%A6%E4%B9%A0%E8%AE%A1%E5%88%92/</guid>
+      <guid>https://yuyx91.github.io/posts/%E8%BF%91%E6%9C%9F%E5%AD%A6%E4%B9%A0%E8%AE%A1%E5%88%92/</guid>
       <description> es6语法重写node博客，参照https://github.com/nswbmw/N-blog/ 学习vue+webpack，参照http://www.tuicool.com/articles/67jY3mv vue-router、vue-loader  </description>
     </item>
     

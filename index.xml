@@ -2,40 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>在路上</title>
-    <link>https://example.com/</link>
+    <link>https://yuyx91.github.io/</link>
     <description>Recent content on 在路上</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>CN</language>
     <copyright>&amp;copy; &lt;a href=&#34;https://github.com/yuyx91&#34;&gt;yuyx91&lt;/a&gt; 2018</copyright>
     <lastBuildDate>Tue, 13 Nov 2018 13:08:35 +0800</lastBuildDate>
     
-	<atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://yuyx91.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>rxjs race和Promise.race用法</title>
-      <link>https://example.com/posts/rxjs-race%E5%92%8Cpromise.race%E7%94%A8%E6%B3%95/</link>
+      <link>https://yuyx91.github.io/posts/rxjs-race%E5%92%8Cpromise.race%E7%94%A8%E6%B3%95/</link>
       <pubDate>Tue, 13 Nov 2018 13:08:35 +0800</pubDate>
       
-      <guid>https://example.com/posts/rxjs-race%E5%92%8Cpromise.race%E7%94%A8%E6%B3%95/</guid>
+      <guid>https://yuyx91.github.io/posts/rxjs-race%E5%92%8Cpromise.race%E7%94%A8%E6%B3%95/</guid>
       <description>rxjs race和Promise.race用法 最近需要做一个功能:页面进入时测速CDN节点,选择最快的CDN,</description>
     </item>
     
     <item>
       <title>webpack中使用echarts以及angular全局引用</title>
-      <link>https://example.com/posts/webpack%E4%B8%AD%E4%BD%BF%E7%94%A8echarts%E4%BB%A5%E5%8F%8Aangular%E5%85%A8%E5%B1%80%E5%BC%95%E7%94%A8/</link>
+      <link>https://yuyx91.github.io/posts/webpack%E4%B8%AD%E4%BD%BF%E7%94%A8echarts%E4%BB%A5%E5%8F%8Aangular%E5%85%A8%E5%B1%80%E5%BC%95%E7%94%A8/</link>
       <pubDate>Tue, 23 May 2017 11:03:03 +0000</pubDate>
       
-      <guid>https://example.com/posts/webpack%E4%B8%AD%E4%BD%BF%E7%94%A8echarts%E4%BB%A5%E5%8F%8Aangular%E5%85%A8%E5%B1%80%E5%BC%95%E7%94%A8/</guid>
+      <guid>https://yuyx91.github.io/posts/webpack%E4%B8%AD%E4%BD%BF%E7%94%A8echarts%E4%BB%A5%E5%8F%8Aangular%E5%85%A8%E5%B1%80%E5%BC%95%E7%94%A8/</guid>
       <description></description>
     </item>
     
     <item>
       <title>NodeJs打造静态服务器以及ngrok映射外网</title>
-      <link>https://example.com/posts/nodejs%E6%89%93%E9%80%A0%E9%9D%99%E6%80%81%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%BB%A5%E5%8F%8Angrok%E6%98%A0%E5%B0%84%E5%A4%96%E7%BD%91/</link>
+      <link>https://yuyx91.github.io/posts/nodejs%E6%89%93%E9%80%A0%E9%9D%99%E6%80%81%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%BB%A5%E5%8F%8Angrok%E6%98%A0%E5%B0%84%E5%A4%96%E7%BD%91/</link>
       <pubDate>Wed, 17 May 2017 17:39:35 +0000</pubDate>
       
-      <guid>https://example.com/posts/nodejs%E6%89%93%E9%80%A0%E9%9D%99%E6%80%81%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%BB%A5%E5%8F%8Angrok%E6%98%A0%E5%B0%84%E5%A4%96%E7%BD%91/</guid>
+      <guid>https://yuyx91.github.io/posts/nodejs%E6%89%93%E9%80%A0%E9%9D%99%E6%80%81%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%BB%A5%E5%8F%8Angrok%E6%98%A0%E5%B0%84%E5%A4%96%E7%BD%91/</guid>
       <description>1.在文件主目录创建app.js
  2.配置静态文件夹
  3.安装ngork
@@ -47,10 +47,10 @@ ngrok http 3000  6.打开ngrok分配的地址
     
     <item>
       <title>使用socket.io打造简易聊天室</title>
-      <link>https://example.com/posts/%E4%BD%BF%E7%94%A8socket-io%E6%89%93%E9%80%A0%E7%AE%80%E6%98%93%E8%81%8A%E5%A4%A9%E5%AE%A4/</link>
+      <link>https://yuyx91.github.io/posts/%E4%BD%BF%E7%94%A8socket-io%E6%89%93%E9%80%A0%E7%AE%80%E6%98%93%E8%81%8A%E5%A4%A9%E5%AE%A4/</link>
       <pubDate>Wed, 17 May 2017 16:51:31 +0000</pubDate>
       
-      <guid>https://example.com/posts/%E4%BD%BF%E7%94%A8socket-io%E6%89%93%E9%80%A0%E7%AE%80%E6%98%93%E8%81%8A%E5%A4%A9%E5%AE%A4/</guid>
+      <guid>https://yuyx91.github.io/posts/%E4%BD%BF%E7%94%A8socket-io%E6%89%93%E9%80%A0%E7%AE%80%E6%98%93%E8%81%8A%E5%A4%A9%E5%AE%A4/</guid>
       <description>&lt;p&gt;要理解socket.io ，不得不谈谈websocket;在html5之前，因为http协议是无状态的，要实现浏览器与服务器的实时通讯，如果不使用 flash、applet 等浏览器插件的话，就需要定期轮询服务器来获取信息。这造成了一定的延迟和大量的网络通讯。随着HTML5 的出现，这一情况有望彻底改观，它就是 WebSocket 。
 socket.io是对websocket的封装,此外它还把轮询（Polling）机制以及其它的实时通信方式封装成了通用的接口,下面是按照官网例子实现的简易聊天室:
 
@@ -59,10 +59,10 @@ socket.io是对websocket的封装,此外它还把轮询（Polling）机制以及
     
     <item>
       <title>vuex简单理解</title>
-      <link>https://example.com/posts/vuex%E7%AE%80%E5%8D%95%E7%90%86%E8%A7%A3/</link>
+      <link>https://yuyx91.github.io/posts/vuex%E7%AE%80%E5%8D%95%E7%90%86%E8%A7%A3/</link>
       <pubDate>Tue, 25 Apr 2017 16:54:40 +0000</pubDate>
       
-      <guid>https://example.com/posts/vuex%E7%AE%80%E5%8D%95%E7%90%86%E8%A7%A3/</guid>
+      <guid>https://yuyx91.github.io/posts/vuex%E7%AE%80%E5%8D%95%E7%90%86%E8%A7%A3/</guid>
       <description>Vuex 是一个专为 Vue.js 应用程序开发的状态管理模式。它采用集中式存储管理应用的所有组件的状态，并以相应的规则保证状态以一种可预测的方式发生变化。 Vuex 也集成到 Vue 的官方调试工具 devtools extension，提供了诸如零配置的 time-travel 调试、状态快照导入导出等高级调试功能。 简而言之：Vuex 相当于某种意义上设置了读写权限的全局变量，将数据保存保存到该“全局变量”下，并通过一定的方法去读写数据。 Vuex 并不限制你的代码结构。但是，它规定了一些需要遵守的规则：
  应用层级的状态应该集中到单个 store 对象中。
  提交 mutation 是更改状态的唯一方法，并且这个过程是同步的。
@@ -73,10 +73,10 @@ socket.io是对websocket的封装,此外它还把轮询（Polling）机制以及
     
     <item>
       <title>AngularJs整合REST风格api,CRUD请求服务合并</title>
-      <link>https://example.com/posts/angularjs%E6%95%B4%E5%90%88rest%E9%A3%8E%E6%A0%BCapi-crud%E8%AF%B7%E6%B1%82%E6%9C%8D%E5%8A%A1%E5%90%88%E5%B9%B6/</link>
+      <link>https://yuyx91.github.io/posts/angularjs%E6%95%B4%E5%90%88rest%E9%A3%8E%E6%A0%BCapi-crud%E8%AF%B7%E6%B1%82%E6%9C%8D%E5%8A%A1%E5%90%88%E5%B9%B6/</link>
       <pubDate>Tue, 25 Apr 2017 16:18:15 +0000</pubDate>
       
-      <guid>https://example.com/posts/angularjs%E6%95%B4%E5%90%88rest%E9%A3%8E%E6%A0%BCapi-crud%E8%AF%B7%E6%B1%82%E6%9C%8D%E5%8A%A1%E5%90%88%E5%B9%B6/</guid>
+      <guid>https://yuyx91.github.io/posts/angularjs%E6%95%B4%E5%90%88rest%E9%A3%8E%E6%A0%BCapi-crud%E8%AF%B7%E6%B1%82%E6%9C%8D%E5%8A%A1%E5%90%88%E5%B9%B6/</guid>
       <description>&lt;p&gt;前后端分离项目,前端采用angularJs+webpack,后台采用Spring Boot 微服务框架,REST风格API.
 &lt;strong&gt;RUST关键原则&lt;/strong&gt;
 - 为所有“事物”定义ID
@@ -88,10 +88,10 @@ socket.io是对websocket的封装,此外它还把轮询（Polling）机制以及
     
     <item>
       <title>webpack打包整合angular1项目实践</title>
-      <link>https://example.com/posts/webpack%E6%89%93%E5%8C%85%E6%95%B4%E5%90%88angular1%E9%A1%B9%E7%9B%AE%E5%AE%9E%E8%B7%B5/</link>
+      <link>https://yuyx91.github.io/posts/webpack%E6%89%93%E5%8C%85%E6%95%B4%E5%90%88angular1%E9%A1%B9%E7%9B%AE%E5%AE%9E%E8%B7%B5/</link>
       <pubDate>Sat, 08 Apr 2017 08:58:36 +0000</pubDate>
       
-      <guid>https://example.com/posts/webpack%E6%89%93%E5%8C%85%E6%95%B4%E5%90%88angular1%E9%A1%B9%E7%9B%AE%E5%AE%9E%E8%B7%B5/</guid>
+      <guid>https://yuyx91.github.io/posts/webpack%E6%89%93%E5%8C%85%E6%95%B4%E5%90%88angular1%E9%A1%B9%E7%9B%AE%E5%AE%9E%E8%B7%B5/</guid>
       <description>&lt;p&gt;掌握了模块化思想,angular1的学习曲线就不会那么陡峭,一般的angular项目多使用requireJS整合代码,requireJS使用AMD规范,虽然也是模块化引入,但是没有做到打包代码,运行时是逐个加载js,而且需要额外引入requireJS,
 webpack模块化采用commomJS规范,和nodeJS语法一样.而且不依赖其他js文件,打包时合并为一个文件,减少HTTP请求.下面来具体讲一讲如何使用webpack一步步构建angular项目:
 &lt;/p&gt;</description>
@@ -99,10 +99,10 @@ webpack模块化采用commomJS规范,和nodeJS语法一样.而且不依赖其他
     
     <item>
       <title>网易云金句摘抄</title>
-      <link>https://example.com/posts/%E7%BD%91%E6%98%93%E4%BA%91%E9%87%91%E5%8F%A5%E6%91%98%E6%8A%84/</link>
+      <link>https://yuyx91.github.io/posts/%E7%BD%91%E6%98%93%E4%BA%91%E9%87%91%E5%8F%A5%E6%91%98%E6%8A%84/</link>
       <pubDate>Tue, 28 Mar 2017 16:42:38 +0000</pubDate>
       
-      <guid>https://example.com/posts/%E7%BD%91%E6%98%93%E4%BA%91%E9%87%91%E5%8F%A5%E6%91%98%E6%8A%84/</guid>
+      <guid>https://yuyx91.github.io/posts/%E7%BD%91%E6%98%93%E4%BA%91%E9%87%91%E5%8F%A5%E6%91%98%E6%8A%84/</guid>
       <description>&lt;ol&gt;
 &lt;li&gt;&lt;p&gt;我喜欢我望向别处时你落在我身上的目光&lt;/p&gt;&lt;/li&gt;
 
@@ -118,68 +118,68 @@ webpack模块化采用commomJS规范,和nodeJS语法一样.而且不依赖其他
     
     <item>
       <title>阅读计划：2017</title>
-      <link>https://example.com/posts/%E9%98%85%E8%AF%BB%E8%AE%A1%E5%88%922017/</link>
+      <link>https://yuyx91.github.io/posts/%E9%98%85%E8%AF%BB%E8%AE%A1%E5%88%922017/</link>
       <pubDate>Wed, 15 Mar 2017 15:36:28 +0000</pubDate>
       
-      <guid>https://example.com/posts/%E9%98%85%E8%AF%BB%E8%AE%A1%E5%88%922017/</guid>
+      <guid>https://yuyx91.github.io/posts/%E9%98%85%E8%AF%BB%E8%AE%A1%E5%88%922017/</guid>
       <description>☑ 0313-0313:《麦田里的守望者》&amp;ndash;杰罗姆·大卫·塞林格 ☑ 0314-0316:《解忧杂货铺》&amp;ndash;东野圭吾 ☑ 0317-0318:《人间失格》&amp;ndash;太宰治 ☑ 0318-0322:《未来简史》&amp;ndash;尤瓦尔·赫拉利 ☑ 0323-0323:《一个人的好天气》&amp;ndash;青山七惠 ☑ 0324-??:《人类简史》&amp;ndash;尤瓦尔·赫拉利 ☑ 0325-0405:《1984》&amp;ndash;乔治·奥威尔 ☑ 0406-??:《沉思录》&amp;ndash;</description>
     </item>
     
     <item>
       <title>Javascript常用API合集</title>
-      <link>https://example.com/posts/javascript%E5%B8%B8%E7%94%A8api%E5%90%88%E9%9B%86/</link>
+      <link>https://yuyx91.github.io/posts/javascript%E5%B8%B8%E7%94%A8api%E5%90%88%E9%9B%86/</link>
       <pubDate>Tue, 14 Mar 2017 10:02:10 +0000</pubDate>
       
-      <guid>https://example.com/posts/javascript%E5%B8%B8%E7%94%A8api%E5%90%88%E9%9B%86/</guid>
+      <guid>https://yuyx91.github.io/posts/javascript%E5%B8%B8%E7%94%A8api%E5%90%88%E9%9B%86/</guid>
       <description>&lt;p&gt;收集Javascript常用API合集，来源web前端开发。
 &lt;/p&gt;</description>
     </item>
     
     <item>
       <title>kindle绑定Amazon账号以及邮箱推送</title>
-      <link>https://example.com/posts/kindle%E7%BB%91%E5%AE%9Aamazon%E8%B4%A6%E5%8F%B7%E4%BB%A5%E5%8F%8A%E9%82%AE%E7%AE%B1%E6%8E%A8%E9%80%81/</link>
+      <link>https://yuyx91.github.io/posts/kindle%E7%BB%91%E5%AE%9Aamazon%E8%B4%A6%E5%8F%B7%E4%BB%A5%E5%8F%8A%E9%82%AE%E7%AE%B1%E6%8E%A8%E9%80%81/</link>
       <pubDate>Mon, 13 Mar 2017 11:01:10 +0000</pubDate>
       
-      <guid>https://example.com/posts/kindle%E7%BB%91%E5%AE%9Aamazon%E8%B4%A6%E5%8F%B7%E4%BB%A5%E5%8F%8A%E9%82%AE%E7%AE%B1%E6%8E%A8%E9%80%81/</guid>
+      <guid>https://yuyx91.github.io/posts/kindle%E7%BB%91%E5%AE%9Aamazon%E8%B4%A6%E5%8F%B7%E4%BB%A5%E5%8F%8A%E9%82%AE%E7%AE%B1%E6%8E%A8%E9%80%81/</guid>
       <description>&lt;p&gt;长草很久的kindle，终于一咬牙下单了， paperwhite 3代经典版，记录一下如何在线推送&lt;code&gt;免费&lt;/code&gt;电子书hiahia：
 &lt;/p&gt;</description>
     </item>
     
     <item>
       <title>angular配置Ueditor</title>
-      <link>https://example.com/posts/angular%E9%85%8D%E7%BD%AEueditor/</link>
+      <link>https://yuyx91.github.io/posts/angular%E9%85%8D%E7%BD%AEueditor/</link>
       <pubDate>Fri, 10 Mar 2017 10:38:50 +0000</pubDate>
       
-      <guid>https://example.com/posts/angular%E9%85%8D%E7%BD%AEueditor/</guid>
+      <guid>https://yuyx91.github.io/posts/angular%E9%85%8D%E7%BD%AEueditor/</guid>
       <description>angular中使用Ueditor注意事项： 把Ueditor文件夹复制到资源目录中，index.html中引入ueditor.config.js，ueditor.min.js; 不能直接在html文件中实例化Ueditor，需要在controller中进行。
 //先销毁上一个editor实例； UE.delEditor(&amp;quot;editor&amp;quot;); //实例化 var ue = UE.getEditor(&#39;editor&#39;); if($scope.notice.value){ $scope.title= $scope.notice.value.Title; ue.ready(function () { // 带入编辑内容内容 // editor准备好之后才可以使用 ue.setContent($scope.notice.value.Content); }); }  </description>
     </item>
     
     <item>
       <title>windows使用快捷键</title>
-      <link>https://example.com/posts/windows%E4%BD%BF%E7%94%A8%E5%BF%AB%E6%8D%B7%E9%94%AE/</link>
+      <link>https://yuyx91.github.io/posts/windows%E4%BD%BF%E7%94%A8%E5%BF%AB%E6%8D%B7%E9%94%AE/</link>
       <pubDate>Thu, 23 Feb 2017 13:55:01 +0000</pubDate>
       
-      <guid>https://example.com/posts/windows%E4%BD%BF%E7%94%A8%E5%BF%AB%E6%8D%B7%E9%94%AE/</guid>
+      <guid>https://yuyx91.github.io/posts/windows%E4%BD%BF%E7%94%A8%E5%BF%AB%E6%8D%B7%E9%94%AE/</guid>
       <description> Win+L：快速锁屏/息屏 Win+E：打开资源管理器 Win+D：显示桌面 Win+Tab：切换窗口 Win+R并且输入psr：开启windows自带录像功能 Win+R并且输入osk：开启虚拟键盘  </description>
     </item>
     
     <item>
       <title>关于Hexo及部署静态服务器网站</title>
-      <link>https://example.com/posts/%E5%85%B3%E4%BA%8Ehexo%E5%8F%8A%E9%83%A8%E7%BD%B2%E9%9D%99%E6%80%81%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%BD%91%E7%AB%99/</link>
+      <link>https://yuyx91.github.io/posts/%E5%85%B3%E4%BA%8Ehexo%E5%8F%8A%E9%83%A8%E7%BD%B2%E9%9D%99%E6%80%81%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%BD%91%E7%AB%99/</link>
       <pubDate>Wed, 22 Feb 2017 14:59:53 +0000</pubDate>
       
-      <guid>https://example.com/posts/%E5%85%B3%E4%BA%8Ehexo%E5%8F%8A%E9%83%A8%E7%BD%B2%E9%9D%99%E6%80%81%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%BD%91%E7%AB%99/</guid>
+      <guid>https://yuyx91.github.io/posts/%E5%85%B3%E4%BA%8Ehexo%E5%8F%8A%E9%83%A8%E7%BD%B2%E9%9D%99%E6%80%81%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%BD%91%E7%AB%99/</guid>
       <description>&lt;p&gt;Hexo 是一种基于Node.js驱动，可以快速搭建并部署到GitHub Pages，Heroku等静态服务器的博客框架。优点是Node.js超快渲染，命令行一建部署，维护方便，插件和主题丰富。
 &lt;/p&gt;</description>
     </item>
     
     <item>
       <title>百度地图API固定标记点</title>
-      <link>https://example.com/posts/%E7%99%BE%E5%BA%A6%E5%9C%B0%E5%9B%BEapi%E5%9B%BA%E5%AE%9A%E6%A0%87%E8%AE%B0%E7%82%B9/</link>
+      <link>https://yuyx91.github.io/posts/%E7%99%BE%E5%BA%A6%E5%9C%B0%E5%9B%BEapi%E5%9B%BA%E5%AE%9A%E6%A0%87%E8%AE%B0%E7%82%B9/</link>
       <pubDate>Wed, 22 Feb 2017 10:25:25 +0000</pubDate>
       
-      <guid>https://example.com/posts/%E7%99%BE%E5%BA%A6%E5%9C%B0%E5%9B%BEapi%E5%9B%BA%E5%AE%9A%E6%A0%87%E8%AE%B0%E7%82%B9/</guid>
+      <guid>https://yuyx91.github.io/posts/%E7%99%BE%E5%BA%A6%E5%9C%B0%E5%9B%BEapi%E5%9B%BA%E5%AE%9A%E6%A0%87%E8%AE%B0%E7%82%B9/</guid>
       <description>&lt;h3 id=&#34;1-首先注册百度地图api-创建应用-获取ak码&#34;&gt;1.首先注册百度地图API，创建应用，获取ak码。&lt;/h3&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://lbsyun.baidu.com/&#34; title=&#34;百度地图API&#34; target=&#34;_blank&#34;&gt;百度地图API&lt;/a&gt;
@@ -188,10 +188,10 @@ webpack模块化采用commomJS规范,和nodeJS语法一样.而且不依赖其他
     
     <item>
       <title>前端面试题</title>
-      <link>https://example.com/posts/%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%AF%95%E9%A2%98/</link>
+      <link>https://yuyx91.github.io/posts/%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%AF%95%E9%A2%98/</link>
       <pubDate>Mon, 13 Feb 2017 08:44:03 +0000</pubDate>
       
-      <guid>https://example.com/posts/%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%AF%95%E9%A2%98/</guid>
+      <guid>https://yuyx91.github.io/posts/%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%AF%95%E9%A2%98/</guid>
       <description>&lt;h2 id=&#34;数组&#34;&gt;数组&lt;/h2&gt;
 
 &lt;h3 id=&#34;1-如何判断数组中是否含有某个元素或字符串&#34;&gt;1.如何判断数组中是否含有某个元素或字符串？&lt;/h3&gt;
@@ -203,79 +203,79 @@ webpack模块化采用commomJS规范,和nodeJS语法一样.而且不依赖其他
     
     <item>
       <title>flex和grid布局</title>
-      <link>https://example.com/posts/flex%E5%92%8Cgrid%E5%B8%83%E5%B1%80/</link>
+      <link>https://yuyx91.github.io/posts/flex%E5%92%8Cgrid%E5%B8%83%E5%B1%80/</link>
       <pubDate>Sun, 05 Feb 2017 08:56:42 +0000</pubDate>
       
-      <guid>https://example.com/posts/flex%E5%92%8Cgrid%E5%B8%83%E5%B1%80/</guid>
+      <guid>https://yuyx91.github.io/posts/flex%E5%92%8Cgrid%E5%B8%83%E5%B1%80/</guid>
       <description>&lt;p&gt;传统的布局解决方案，基于盒式模型，它对应那些特殊布局非常不方便，比如垂直居中。2009年，W3C提出了一种新的方案&amp;ndash;Flex布局，可以简便、完整、响应式地实现各种页面布局。
 &lt;/p&gt;</description>
     </item>
     
     <item>
       <title>js&#43;css3实现高度自适应折叠菜单</title>
-      <link>https://example.com/posts/js-css3%E5%AE%9E%E7%8E%B0%E9%AB%98%E5%BA%A6%E8%87%AA%E9%80%82%E5%BA%94%E6%8A%98%E5%8F%A0%E8%8F%9C%E5%8D%95/</link>
+      <link>https://yuyx91.github.io/posts/js-css3%E5%AE%9E%E7%8E%B0%E9%AB%98%E5%BA%A6%E8%87%AA%E9%80%82%E5%BA%94%E6%8A%98%E5%8F%A0%E8%8F%9C%E5%8D%95/</link>
       <pubDate>Thu, 29 Dec 2016 14:04:18 +0000</pubDate>
       
-      <guid>https://example.com/posts/js-css3%E5%AE%9E%E7%8E%B0%E9%AB%98%E5%BA%A6%E8%87%AA%E9%80%82%E5%BA%94%E6%8A%98%E5%8F%A0%E8%8F%9C%E5%8D%95/</guid>
+      <guid>https://yuyx91.github.io/posts/js-css3%E5%AE%9E%E7%8E%B0%E9%AB%98%E5%BA%A6%E8%87%AA%E9%80%82%E5%BA%94%E6%8A%98%E5%8F%A0%E8%8F%9C%E5%8D%95/</guid>
       <description>&lt;p&gt;虽然使用jquery实现的折叠菜单非常简便，直接使用slideUp()和slideDown()方法，但是手机端使用jquery太不方便，可以考虑使用原生js+css3实现。&lt;br /&gt;
 &lt;/p&gt;</description>
     </item>
     
     <item>
       <title>关于Node中的require和import</title>
-      <link>https://example.com/posts/%E5%85%B3%E4%BA%8Enode%E4%B8%AD%E7%9A%84require%E5%92%8Cimport/</link>
+      <link>https://yuyx91.github.io/posts/%E5%85%B3%E4%BA%8Enode%E4%B8%AD%E7%9A%84require%E5%92%8Cimport/</link>
       <pubDate>Fri, 23 Dec 2016 09:14:57 +0000</pubDate>
       
-      <guid>https://example.com/posts/%E5%85%B3%E4%BA%8Enode%E4%B8%AD%E7%9A%84require%E5%92%8Cimport/</guid>
+      <guid>https://yuyx91.github.io/posts/%E5%85%B3%E4%BA%8Enode%E4%B8%AD%E7%9A%84require%E5%92%8Cimport/</guid>
       <description>&lt;p&gt;一直疑惑为什么vue2.0都支持ES6语法，使用import处理模块，为什么Node7.0还不支持import？其实ES6的module模块的js引擎还在开发中，目前还没有浏览器支持import。具体可以看&lt;a href=&#34;https://www.chromestatus.com/features/5365692190687232&#34; title=&#34;chrome浏览器modules开发进度&#34;&gt;chrome浏览器modules开发进度&lt;/a&gt;。而Node是使用chromeV8引擎，所以也不支持import，很多ES6语法最终都要通过转码。
 &lt;/p&gt;</description>
     </item>
     
     <item>
       <title>vuex学习笔记</title>
-      <link>https://example.com/posts/vuex%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</link>
+      <link>https://yuyx91.github.io/posts/vuex%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</link>
       <pubDate>Mon, 19 Dec 2016 15:33:25 +0000</pubDate>
       
-      <guid>https://example.com/posts/vuex%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</guid>
+      <guid>https://yuyx91.github.io/posts/vuex%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</guid>
       <description>&lt;p&gt;vuex是一个主要应用在中大型单页应用的类似于Flux的数据管理架构。它主要帮我们更好地组织代码，以及把应用内的状态保持在可维护、可理解的状态。&lt;br /&gt;
 &lt;/p&gt;</description>
     </item>
     
     <item>
       <title>2016个人年终总结</title>
-      <link>https://example.com/posts/2016%E4%B8%AA%E4%BA%BA%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/</link>
+      <link>https://yuyx91.github.io/posts/2016%E4%B8%AA%E4%BA%BA%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/</link>
       <pubDate>Mon, 19 Dec 2016 09:15:50 +0000</pubDate>
       
-      <guid>https://example.com/posts/2016%E4%B8%AA%E4%BA%BA%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/</guid>
+      <guid>https://yuyx91.github.io/posts/2016%E4%B8%AA%E4%BA%BA%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/</guid>
       <description>&lt;h3 id=&#34;1-2016年个人工作完成的情况及取得的成绩&#34;&gt;1.2016年个人工作完成的情况及取得的成绩。&lt;/h3&gt;</description>
     </item>
     
     <item>
       <title>《ECMAScript6入门》笔记（二）</title>
-      <link>https://example.com/posts/ecmascript6%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0%E4%BA%8C/</link>
+      <link>https://yuyx91.github.io/posts/ecmascript6%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0%E4%BA%8C/</link>
       <pubDate>Mon, 05 Dec 2016 09:27:22 +0000</pubDate>
       
-      <guid>https://example.com/posts/ecmascript6%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0%E4%BA%8C/</guid>
+      <guid>https://yuyx91.github.io/posts/ecmascript6%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0%E4%BA%8C/</guid>
       <description>&lt;p&gt;ES6还包括变量的扩展、数组的扩展、对象的扩展等。暂时略过，只记一下比较重要的。
 &lt;/p&gt;</description>
     </item>
     
     <item>
       <title>《ECMAScript6入门》笔记</title>
-      <link>https://example.com/posts/ecmascript6%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0/</link>
+      <link>https://yuyx91.github.io/posts/ecmascript6%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0/</link>
       <pubDate>Fri, 25 Nov 2016 11:53:13 +0800</pubDate>
       
-      <guid>https://example.com/posts/ecmascript6%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0/</guid>
+      <guid>https://yuyx91.github.io/posts/ecmascript6%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0/</guid>
       <description>&lt;p&gt;最近学习了vue2.0，顺便记一下ES6的语法&lt;br /&gt;
 &lt;/p&gt;</description>
     </item>
     
     <item>
       <title>张五常的货币理论</title>
-      <link>https://example.com/posts/%E5%BC%A0%E4%BA%94%E5%B8%B8%E7%9A%84%E8%B4%A7%E5%B8%81%E7%90%86%E8%AE%BA/</link>
+      <link>https://yuyx91.github.io/posts/%E5%BC%A0%E4%BA%94%E5%B8%B8%E7%9A%84%E8%B4%A7%E5%B8%81%E7%90%86%E8%AE%BA/</link>
       <pubDate>Wed, 23 Nov 2016 09:18:06 +0000</pubDate>
       
-      <guid>https://example.com/posts/%E5%BC%A0%E4%BA%94%E5%B8%B8%E7%9A%84%E8%B4%A7%E5%B8%81%E7%90%86%E8%AE%BA/</guid>
+      <guid>https://yuyx91.github.io/posts/%E5%BC%A0%E4%BA%94%E5%B8%B8%E7%9A%84%E8%B4%A7%E5%B8%81%E7%90%86%E8%AE%BA/</guid>
       <description>&lt;p&gt;张五常其人：中国想经济学家，新制度经济学和现代产权经济学的创始人之一。是国际知名的经济学家，也是华人经济学第一人。&lt;br /&gt;
 
 货币经济学属于宏观经济学。&lt;/p&gt;</description>
@@ -283,20 +283,20 @@ webpack模块化采用commomJS规范,和nodeJS语法一样.而且不依赖其他
     
     <item>
       <title>分享几个自己常用的jquery轮播组件</title>
-      <link>https://example.com/posts/%E5%88%86%E4%BA%AB%E5%87%A0%E4%B8%AA%E8%87%AA%E5%B7%B1%E5%B8%B8%E7%94%A8%E7%9A%84jquery%E8%BD%AE%E6%92%AD%E7%BB%84%E4%BB%B6/</link>
+      <link>https://yuyx91.github.io/posts/%E5%88%86%E4%BA%AB%E5%87%A0%E4%B8%AA%E8%87%AA%E5%B7%B1%E5%B8%B8%E7%94%A8%E7%9A%84jquery%E8%BD%AE%E6%92%AD%E7%BB%84%E4%BB%B6/</link>
       <pubDate>Tue, 22 Nov 2016 10:49:55 +0000</pubDate>
       
-      <guid>https://example.com/posts/%E5%88%86%E4%BA%AB%E5%87%A0%E4%B8%AA%E8%87%AA%E5%B7%B1%E5%B8%B8%E7%94%A8%E7%9A%84jquery%E8%BD%AE%E6%92%AD%E7%BB%84%E4%BB%B6/</guid>
+      <guid>https://yuyx91.github.io/posts/%E5%88%86%E4%BA%AB%E5%87%A0%E4%B8%AA%E8%87%AA%E5%B7%B1%E5%B8%B8%E7%94%A8%E7%9A%84jquery%E8%BD%AE%E6%92%AD%E7%BB%84%E4%BB%B6/</guid>
       <description>&lt;p&gt;以下是几个自己写的jquery轮播组件，轻巧简便，配合布局可以直接拿来用。&lt;br /&gt;
 &lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Javascript基于原型的面向对象</title>
-      <link>https://example.com/posts/javascript%E5%9F%BA%E4%BA%8E%E5%8E%9F%E5%9E%8B%E7%9A%84%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/</link>
+      <link>https://yuyx91.github.io/posts/javascript%E5%9F%BA%E4%BA%8E%E5%8E%9F%E5%9E%8B%E7%9A%84%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/</link>
       <pubDate>Fri, 18 Nov 2016 17:18:03 +0000</pubDate>
       
-      <guid>https://example.com/posts/javascript%E5%9F%BA%E4%BA%8E%E5%8E%9F%E5%9E%8B%E7%9A%84%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/</guid>
+      <guid>https://yuyx91.github.io/posts/javascript%E5%9F%BA%E4%BA%8E%E5%8E%9F%E5%9E%8B%E7%9A%84%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/</guid>
       <description>&lt;p&gt;和java等基于类（class-base）的面向对象的编程语言不同，Javascript没有类的概念，而是基于原型（prototype-base）实现的面向对象。虽然ES6已结引入了类的概念来做模板，通过关键字“class”可以定义类，但ES6的这种写法可以理解为一种语法糖。&lt;br /&gt;
 &lt;br /&gt;
 如果要理解基于原型实现面向对象的思想，那么就需要理解Javascript中的三个重要概念：构造函数（constructor）、原型（prototype）、原型链（prototype chain）。&lt;/p&gt;</description>
@@ -304,10 +304,10 @@ webpack模块化采用commomJS规范,和nodeJS语法一样.而且不依赖其他
     
     <item>
       <title>rem布局实践</title>
-      <link>https://example.com/posts/rem%E5%B8%83%E5%B1%80%E5%AE%9E%E8%B7%B5/</link>
+      <link>https://yuyx91.github.io/posts/rem%E5%B8%83%E5%B1%80%E5%AE%9E%E8%B7%B5/</link>
       <pubDate>Thu, 17 Nov 2016 11:23:19 +0000</pubDate>
       
-      <guid>https://example.com/posts/rem%E5%B8%83%E5%B1%80%E5%AE%9E%E8%B7%B5/</guid>
+      <guid>https://yuyx91.github.io/posts/rem%E5%B8%83%E5%B1%80%E5%AE%9E%E8%B7%B5/</guid>
       <description>手机端和微信端做的项目不少，一直是@media媒体查询和vw混用，蒙混过关，但是也会有很多兼容性的问题，并不能做到完全响应。所以最近关注一下比较流行的rem布局。
 一般比较简单的rem布局是这样的，设置html的font-size:100px，组件的单位相对于font-size进行调整，也就是rem。然后根据设备的宽度，使用js动态调整font-size，以达到响应式的布局。
 简单的例子：
@@ -319,10 +319,10 @@ webpack模块化采用commomJS规范,和nodeJS语法一样.而且不依赖其他
     
     <item>
       <title>jquery实现导航栏滑动底边</title>
-      <link>https://example.com/posts/jquery%E5%AE%9E%E7%8E%B0%E5%AF%BC%E8%88%AA%E6%A0%8F%E6%BB%91%E5%8A%A8%E5%BA%95%E8%BE%B9/</link>
+      <link>https://yuyx91.github.io/posts/jquery%E5%AE%9E%E7%8E%B0%E5%AF%BC%E8%88%AA%E6%A0%8F%E6%BB%91%E5%8A%A8%E5%BA%95%E8%BE%B9/</link>
       <pubDate>Wed, 16 Nov 2016 17:14:08 +0000</pubDate>
       
-      <guid>https://example.com/posts/jquery%E5%AE%9E%E7%8E%B0%E5%AF%BC%E8%88%AA%E6%A0%8F%E6%BB%91%E5%8A%A8%E5%BA%95%E8%BE%B9/</guid>
+      <guid>https://yuyx91.github.io/posts/jquery%E5%AE%9E%E7%8E%B0%E5%AF%BC%E8%88%AA%E6%A0%8F%E6%BB%91%E5%8A%A8%E5%BA%95%E8%BE%B9/</guid>
       <description>&lt;p&gt;公司的新网站，加入一些比较炫的效果，利用jquery实现滑动跟随导航栏底边。
 &lt;br /&gt;
 废话不多说，前端代码：&lt;/p&gt;</description>
@@ -330,19 +330,19 @@ webpack模块化采用commomJS规范,和nodeJS语法一样.而且不依赖其他
     
     <item>
       <title>原生Js创建ajax发送表单</title>
-      <link>https://example.com/posts/%E5%8E%9F%E7%94%9Fjs%E5%88%9B%E5%BB%BAajax%E5%8F%91%E9%80%81%E8%A1%A8%E5%8D%95/</link>
+      <link>https://yuyx91.github.io/posts/%E5%8E%9F%E7%94%9Fjs%E5%88%9B%E5%BB%BAajax%E5%8F%91%E9%80%81%E8%A1%A8%E5%8D%95/</link>
       <pubDate>Wed, 16 Nov 2016 09:47:31 +0000</pubDate>
       
-      <guid>https://example.com/posts/%E5%8E%9F%E7%94%9Fjs%E5%88%9B%E5%BB%BAajax%E5%8F%91%E9%80%81%E8%A1%A8%E5%8D%95/</guid>
+      <guid>https://yuyx91.github.io/posts/%E5%8E%9F%E7%94%9Fjs%E5%88%9B%E5%BB%BAajax%E5%8F%91%E9%80%81%E8%A1%A8%E5%8D%95/</guid>
       <description>&lt;p&gt;一直使用jquery的ajax和后台交互，对ajax的原理不是很了解，而且轻量化的手机端不适合使用jquery操作，研究一下原生的ajax有助于对http的深入理解。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>webpack 学习笔记</title>
-      <link>https://example.com/posts/webpack-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</link>
+      <link>https://yuyx91.github.io/posts/webpack-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</link>
       <pubDate>Tue, 15 Nov 2016 09:16:50 +0000</pubDate>
       
-      <guid>https://example.com/posts/webpack-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</guid>
+      <guid>https://yuyx91.github.io/posts/webpack-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</guid>
       <description>&lt;h2 id=&#34;webpack-的特点和优势&#34;&gt;Webpack 的特点和优势&lt;/h2&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -350,46 +350,46 @@ webpack模块化采用commomJS规范,和nodeJS语法一样.而且不依赖其他
     
     <item>
       <title>Markdown速记笔记</title>
-      <link>https://example.com/posts/markdown%E9%80%9F%E8%AE%B0%E7%AC%94%E8%AE%B0/</link>
+      <link>https://yuyx91.github.io/posts/markdown%E9%80%9F%E8%AE%B0%E7%AC%94%E8%AE%B0/</link>
       <pubDate>Mon, 14 Nov 2016 10:08:43 +0000</pubDate>
       
-      <guid>https://example.com/posts/markdown%E9%80%9F%E8%AE%B0%E7%AC%94%E8%AE%B0/</guid>
+      <guid>https://yuyx91.github.io/posts/markdown%E9%80%9F%E8%AE%B0%E7%AC%94%E8%AE%B0/</guid>
       <description> 原生Markdown不支持table语法，可以直接用html &amp;lt;table&amp;gt;标签来代替 在Markdown中使用html标签时，谨慎使用换行和空格，会被Markdown语法识别  </description>
     </item>
     
     <item>
       <title>学习笔记：GET和POST请求的区别</title>
-      <link>https://example.com/posts/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0get%E5%92%8Cpost%E8%AF%B7%E6%B1%82%E7%9A%84%E5%8C%BA%E5%88%AB/</link>
+      <link>https://yuyx91.github.io/posts/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0get%E5%92%8Cpost%E8%AF%B7%E6%B1%82%E7%9A%84%E5%8C%BA%E5%88%AB/</link>
       <pubDate>Mon, 14 Nov 2016 09:53:19 +0000</pubDate>
       
-      <guid>https://example.com/posts/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0get%E5%92%8Cpost%E8%AF%B7%E6%B1%82%E7%9A%84%E5%8C%BA%E5%88%AB/</guid>
+      <guid>https://yuyx91.github.io/posts/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0get%E5%92%8Cpost%E8%AF%B7%E6%B1%82%E7%9A%84%E5%8C%BA%E5%88%AB/</guid>
       <description>GET方式POST方式同一地址不重复执行每次都执行可被缓存不可被缓存把参数数据添加到提交表单的action属性所指的URL中，值和表单内各个字段一一对应，在URL中可以看到通过HTTP POST机制，将表单内各个字段与内容放置在HTML HEADER内一起传送到action属性所指的URL地址，用户看不到这个过程服务器端用Request.QueryString获取变量的值服务器端用Request.Form获取提交是数据传送的数据量较小，不能大于2KB传送的数据量较大，一般被默认为不受限制，但理论上，因服务器的不同而异安全性非常低安全性较高method为get时，action后面的参数列表会被忽视method为post时，action后面的参数列表不可忽视它将数据添加到URL中，通过这种方式传递到服务器，通常利用问号?代表URL地址的结尾与数据参数的开端，后面的参数每一个数据参数以“键=值”的形式出现，参数之间用&amp;区分数据是放在HTTP主体中的，其组织方式不止一种，有&amp;连接方式，也有分隔符方式，可隐藏参数，传递大批数据比较方便 </description>
     </item>
     
     <item>
       <title>近期学习计划</title>
-      <link>https://example.com/posts/%E8%BF%91%E6%9C%9F%E5%AD%A6%E4%B9%A0%E8%AE%A1%E5%88%92/</link>
+      <link>https://yuyx91.github.io/posts/%E8%BF%91%E6%9C%9F%E5%AD%A6%E4%B9%A0%E8%AE%A1%E5%88%92/</link>
       <pubDate>Fri, 11 Nov 2016 10:46:41 +0000</pubDate>
       
-      <guid>https://example.com/posts/%E8%BF%91%E6%9C%9F%E5%AD%A6%E4%B9%A0%E8%AE%A1%E5%88%92/</guid>
+      <guid>https://yuyx91.github.io/posts/%E8%BF%91%E6%9C%9F%E5%AD%A6%E4%B9%A0%E8%AE%A1%E5%88%92/</guid>
       <description> es6语法重写node博客，参照https://github.com/nswbmw/N-blog/ 学习vue+webpack，参照http://www.tuicool.com/articles/67jY3mv vue-router、vue-loader  </description>
     </item>
     
     <item>
       <title>原生js做的雪花效果</title>
-      <link>https://example.com/posts/%E5%8E%9F%E7%94%9Fjs%E5%81%9A%E7%9A%84%E9%9B%AA%E8%8A%B1%E6%95%88%E6%9E%9C/</link>
+      <link>https://yuyx91.github.io/posts/%E5%8E%9F%E7%94%9Fjs%E5%81%9A%E7%9A%84%E9%9B%AA%E8%8A%B1%E6%95%88%E6%9E%9C/</link>
       <pubDate>Thu, 10 Nov 2016 15:54:32 +0000</pubDate>
       
-      <guid>https://example.com/posts/%E5%8E%9F%E7%94%9Fjs%E5%81%9A%E7%9A%84%E9%9B%AA%E8%8A%B1%E6%95%88%E6%9E%9C/</guid>
+      <guid>https://yuyx91.github.io/posts/%E5%8E%9F%E7%94%9Fjs%E5%81%9A%E7%9A%84%E9%9B%AA%E8%8A%B1%E6%95%88%E6%9E%9C/</guid>
       <description>demo地址</description>
     </item>
     
     <item>
       <title>一种简单的方法实现网站底部固定</title>
-      <link>https://example.com/posts/%E4%B8%80%E7%A7%8D%E7%AE%80%E5%8D%95%E7%9A%84%E6%96%B9%E6%B3%95%E5%AE%9E%E7%8E%B0%E7%BD%91%E7%AB%99%E5%BA%95%E9%83%A8%E5%9B%BA%E5%AE%9A/</link>
+      <link>https://yuyx91.github.io/posts/%E4%B8%80%E7%A7%8D%E7%AE%80%E5%8D%95%E7%9A%84%E6%96%B9%E6%B3%95%E5%AE%9E%E7%8E%B0%E7%BD%91%E7%AB%99%E5%BA%95%E9%83%A8%E5%9B%BA%E5%AE%9A/</link>
       <pubDate>Thu, 10 Nov 2016 11:45:10 +0000</pubDate>
       
-      <guid>https://example.com/posts/%E4%B8%80%E7%A7%8D%E7%AE%80%E5%8D%95%E7%9A%84%E6%96%B9%E6%B3%95%E5%AE%9E%E7%8E%B0%E7%BD%91%E7%AB%99%E5%BA%95%E9%83%A8%E5%9B%BA%E5%AE%9A/</guid>
+      <guid>https://yuyx91.github.io/posts/%E4%B8%80%E7%A7%8D%E7%AE%80%E5%8D%95%E7%9A%84%E6%96%B9%E6%B3%95%E5%AE%9E%E7%8E%B0%E7%BD%91%E7%AB%99%E5%BA%95%E9%83%A8%E5%9B%BA%E5%AE%9A/</guid>
       <description>&lt;p&gt;现在电脑的屏幕分辨率越来越大，网站的底部浮在半腰非常难看&amp;hellip;&lt;br /&gt;
 
 &amp;gt; 参考本博客的方法，可以轻易的实现网站底部自动固定。&lt;/p&gt;</description>
@@ -397,10 +397,10 @@ webpack模块化采用commomJS规范,和nodeJS语法一样.而且不依赖其他
     
     <item>
       <title>Hexo 速记笔记</title>
-      <link>https://example.com/posts/hexo-%E9%80%9F%E8%AE%B0%E7%AC%94%E8%AE%B0/</link>
+      <link>https://yuyx91.github.io/posts/hexo-%E9%80%9F%E8%AE%B0%E7%AC%94%E8%AE%B0/</link>
       <pubDate>Tue, 08 Nov 2016 14:34:45 +0000</pubDate>
       
-      <guid>https://example.com/posts/hexo-%E9%80%9F%E8%AE%B0%E7%AC%94%E8%AE%B0/</guid>
+      <guid>https://yuyx91.github.io/posts/hexo-%E9%80%9F%E8%AE%B0%E7%AC%94%E8%AE%B0/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;&lt;code&gt;hexo g&lt;/code&gt; 生成静态文件&lt;br /&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;hexo d&lt;/code&gt; 发布到git&lt;br /&gt;&lt;/li&gt;
@@ -411,10 +411,10 @@ webpack模块化采用commomJS规范,和nodeJS语法一样.而且不依赖其他
     
     <item>
       <title>先记一下markdown笔记，边学边写</title>
-      <link>https://example.com/posts/%E5%85%88%E8%AE%B0%E4%B8%80%E4%B8%8Bmarkdown%E7%AC%94%E8%AE%B0%E8%BE%B9%E5%AD%A6%E8%BE%B9%E5%86%99/</link>
+      <link>https://yuyx91.github.io/posts/%E5%85%88%E8%AE%B0%E4%B8%80%E4%B8%8Bmarkdown%E7%AC%94%E8%AE%B0%E8%BE%B9%E5%AD%A6%E8%BE%B9%E5%86%99/</link>
       <pubDate>Mon, 07 Nov 2016 17:34:25 +0000</pubDate>
       
-      <guid>https://example.com/posts/%E5%85%88%E8%AE%B0%E4%B8%80%E4%B8%8Bmarkdown%E7%AC%94%E8%AE%B0%E8%BE%B9%E5%AD%A6%E8%BE%B9%E5%86%99/</guid>
+      <guid>https://yuyx91.github.io/posts/%E5%85%88%E8%AE%B0%E4%B8%80%E4%B8%8Bmarkdown%E7%AC%94%E8%AE%B0%E8%BE%B9%E5%AD%A6%E8%BE%B9%E5%86%99/</guid>
       <description>&lt;h2 id=&#34;概述&#34;&gt;概述&lt;/h2&gt;
 
 &lt;hr /&gt;
@@ -425,10 +425,10 @@ webpack模块化采用commomJS规范,和nodeJS语法一样.而且不依赖其他
     
     <item>
       <title>Hello World</title>
-      <link>https://example.com/posts/hello-world/</link>
+      <link>https://yuyx91.github.io/posts/hello-world/</link>
       <pubDate>Mon, 07 Nov 2016 14:34:45 +0000</pubDate>
       
-      <guid>https://example.com/posts/hello-world/</guid>
+      <guid>https://yuyx91.github.io/posts/hello-world/</guid>
       <description>博客终于搭建好了，下一步好好学学markdown语法，写几篇心得出来！</description>
     </item>
     
