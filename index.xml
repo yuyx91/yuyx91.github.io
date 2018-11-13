@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>在路上</title>
+    <link>https://yuyx91.github.io/</link>
+    <description>Recent content on 在路上</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 01 Nov 2018 10:35:41 +0800</lastBuildDate>
+    
+	<atom:link href="https://yuyx91.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>我都博客</title>
+      <link>https://yuyx91.github.io/post/%E6%88%91%E9%83%BDvoke/</link>
+      <pubDate>Thu, 01 Nov 2018 10:35:41 +0800</pubDate>
+      
+      <guid>https://yuyx91.github.io/post/%E6%88%91%E9%83%BDvoke/</guid>
+      <description>这是一篇测试文章! 哇卡卡卡</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://yuyx91.github.io/about/</link>
+      <pubDate>Sat, 08 Sep 2018 13:41:37 +0800</pubDate>
+      
+      <guid>https://yuyx91.github.io/about/</guid>
+      <description>A headline some content</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://yuyx91.github.io/ss/</link>
+      <pubDate>Sat, 08 Sep 2018 13:41:37 +0800</pubDate>
+      
+      <guid>https://yuyx91.github.io/ss/</guid>
+      <description>A headline some content</description>
+    </item>
+    
+    <item>
+      <title>Test</title>
+      <link>https://yuyx91.github.io/post/test/</link>
+      <pubDate>Sat, 25 Aug 2018 10:35:41 +0800</pubDate>
+      
+      <guid>https://yuyx91.github.io/post/test/</guid>
+      <description>这是一篇测试文章! 哈哈哈哈哈哈哈哈哈,2333123</description>
+    </item>
+    
+  </channel>
+</rss>
